@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\LBG\path\wampserver\www\iwebshop570303\controllers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">D:\LBG\path\wampserver\www\iwebshop570303</a></li>
+         <li class="breadcrumb-item"><a href="index.html">controllers</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="admin.php.html#6">Admin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#6">Block</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#7">Ucenter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#7">Tools</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="systemseller.php.html#8">SystemSeller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#7">System</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#14">Site</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#8">Seller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="plugins.php.html#7">plugins</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#9">Pic</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#7">Order</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#7">Message</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#7">Member</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#7">Market</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#7">Goods</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="errors.php.html#14">Errors</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#7">Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#7">Brand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="update.php.html#5">Update</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#20">Simple</a></td><td class="text-right">1%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="seller.php.html#8">Seller</a></td><td class="text-right">92720</td></tr>
+       <tr><td><a href="order.php.html#7">Order</a></td><td class="text-right">53592</td></tr>
+       <tr><td><a href="simple.php.html#20">Simple</a></td><td class="text-right">44329</td></tr>
+       <tr><td><a href="system.php.html#7">System</a></td><td class="text-right">37830</td></tr>
+       <tr><td><a href="market.php.html#7">Market</a></td><td class="text-right">34410</td></tr>
+       <tr><td><a href="goods.php.html#7">Goods</a></td><td class="text-right">28392</td></tr>
+       <tr><td><a href="site.php.html#14">Site</a></td><td class="text-right">18906</td></tr>
+       <tr><td><a href="tools.php.html#7">Tools</a></td><td class="text-right">18090</td></tr>
+       <tr><td><a href="ucenter.php.html#7">Ucenter</a></td><td class="text-right">14280</td></tr>
+       <tr><td><a href="member.php.html#7">Member</a></td><td class="text-right">10920</td></tr>
+       <tr><td><a href="block.php.html#6">Block</a></td><td class="text-right">9702</td></tr>
+       <tr><td><a href="comment.php.html#7">Comment</a></td><td class="text-right">4290</td></tr>
+       <tr><td><a href="message.php.html#7">Message</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="pic.php.html#9">Pic</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="brand.php.html#7">Brand</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="plugins.php.html#7">plugins</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="update.php.html#5">Update</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="admin.php.html#6">Admin</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="systemseller.php.html#8">SystemSeller</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="errors.php.html#14">Errors</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="admin.php.html#11"><abbr title="Admin::login_act">login_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#213"><abbr title="Simple::clearCart">clearCart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1067"><abbr title="Simple::oauth_callback">oauth_callback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1051"><abbr title="Simple::oauth_login">oauth_login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#999"><abbr title="Simple::favorite_add">favorite_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#952"><abbr title="Simple::do_restore_password">do_restore_password</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#920"><abbr title="Simple::restore_password">restore_password</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#866"><abbr title="Simple::send_message_mobile">send_message_mobile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#815"><abbr title="Simple::find_password_mobile">find_password_mobile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#765"><abbr title="Simple::find_password_email">find_password_email</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#729"><abbr title="Simple::arrival_notice">arrival_notice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#351"><abbr title="Simple::cart3">cart3</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#271"><abbr title="Simple::cart2">cart2</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#263"><abbr title="Simple::promotionRuleAjax">promotionRuleAjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#232"><abbr title="Simple::cart">cart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#156"><abbr title="Simple::removeCart">removeCart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1151"><abbr title="Simple::bind_exists_user">bind_exists_user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#140"><abbr title="Simple::getProducts">getProducts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#95"><abbr title="Simple::joinCart">joinCart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#69"><abbr title="Simple::login_act">login_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#50"><abbr title="Simple::reg_act">reg_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#43"><abbr title="Simple::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#29"><abbr title="Simple::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2303"><abbr title="Seller::ticket_excel">ticket_excel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2296"><abbr title="Seller::ticket_more_list">ticket_more_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2267"><abbr title="Seller::ticket_more_del">ticket_more_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2235"><abbr title="Seller::ticket_del">ticket_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2208"><abbr title="Seller::ticket_create">ticket_create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2140"><abbr title="Seller::ticket_edit_act">ticket_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2127"><abbr title="Seller::ticket_edit">ticket_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1103"><abbr title="Simple::bindUser">bindUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1192"><abbr title="Simple::bind_not_exists_user">bind_not_exists_user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2051"><abbr title="Seller::assemble_del">assemble_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#534"><abbr title="Site::comment_ajax">comment_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#882"><abbr title="Site::home">home</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#869"><abbr title="Site::brand_zone">brand_zone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#860"><abbr title="Site::brand">brand</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#834"><abbr title="Site::groupon">groupon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#813"><abbr title="Site::help_list">help_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#791"><abbr title="Site::help">help</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#776"><abbr title="Site::pic_show">pic_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#698"><abbr title="Site::comment_add">comment_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#665"><abbr title="Site::comments">comments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#643"><abbr title="Site::comments_list">comments_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#615"><abbr title="Site::refer_ajax">refer_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#588"><abbr title="Site::discuss_ajax">discuss_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#561"><abbr title="Site::history_ajax">history_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#497"><abbr title="Site::getProduct">getProduct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1230"><abbr title="Simple::seller_reg">seller_reg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#454"><abbr title="Site::discussUpdate">discussUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#305"><abbr title="Site::products">products</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#281"><abbr title="Site::article_detail">article_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#271"><abbr title="Site::article">article</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#251"><abbr title="Site::notice_detail">notice_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#199"><abbr title="Site::consult_act">consult_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#176"><abbr title="Site::consult">consult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#153"><abbr title="Site::pro_list">pro_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#111"><abbr title="Site::email_registry">email_registry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#83"><abbr title="Site::autoComplete">autoComplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#30"><abbr title="Site::search_list">search_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#23"><abbr title="Site::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#18"><abbr title="Site::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="simple.php.html#1324"><abbr title="Simple::exceptCartGoodsAjax">exceptCartGoodsAjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#2076"><abbr title="Seller::ticket_status">ticket_status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1974"><abbr title="Seller::assemble_update">assemble_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#919"><abbr title="Site::topic">topic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#417"><abbr title="Seller::seller_add">seller_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#974"><abbr title="Seller::ship_info_edit">ship_info_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#890"><abbr title="Seller::goods_copy">goods_copy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#843"><abbr title="Seller::refundment_update">refundment_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#821"><abbr title="Seller::refundment_show">refundment_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#794"><abbr title="Seller::comment_update">comment_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#763"><abbr title="Seller::comment_edit">comment_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#731"><abbr title="Seller::countGoodsFee">countGoodsFee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#662"><abbr title="Seller::bill_update">bill_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#648"><abbr title="Seller::bill_del">bill_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#632"><abbr title="Seller::bill_edit">bill_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#548"><abbr title="Seller::regiment_edit_act">regiment_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#525"><abbr title="Seller::regiment_del">regiment_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#496"><abbr title="Seller::regiment_edit">regiment_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#406"><abbr title="Seller::seller_edit">seller_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1014"><abbr title="Seller::ship_info_update">ship_info_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#351"><abbr title="Seller::order_report">order_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#326"><abbr title="Seller::order_list">order_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#300"><abbr title="Seller::order_delivery_doc">order_delivery_doc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#277"><abbr title="Seller::order_deliver">order_deliver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#251"><abbr title="Seller::order_show">order_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#228"><abbr title="Seller::refer_reply">refer_reply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#217"><abbr title="Seller::ajax_sort">ajax_sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#199"><abbr title="Seller::spec_del">spec_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#180"><abbr title="Seller::goods_status">goods_status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#152"><abbr title="Seller::goods_del">goods_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#102"><abbr title="Seller::goods_report">goods_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#72"><abbr title="Seller::goods_list">goods_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#50"><abbr title="Seller::goods_update">goods_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#22"><abbr title="Seller::goods_edit">goods_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#997"><abbr title="Seller::ship_info_default">ship_info_default</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1069"><abbr title="Seller::ship_info_del">ship_info_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1944"><abbr title="Seller::assemble_edit">assemble_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1551"><abbr title="Seller::categoryAjax">categoryAjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1889"><abbr title="Seller::banner_update">banner_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1856"><abbr title="Seller::takeself_operate">takeself_operate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1844"><abbr title="Seller::takeself_edit">takeself_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1787"><abbr title="Seller::takeself_update">takeself_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1753"><abbr title="Seller::fix_update">fix_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1735"><abbr title="Seller::fix_show">fix_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1703"><abbr title="Seller::exchange_update">exchange_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1685"><abbr title="Seller::exchange_show">exchange_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1655"><abbr title="Seller::expresswaybill_update">expresswaybill_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1642"><abbr title="Seller::expresswaybill_edit">expresswaybill_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1613"><abbr title="Seller::expresswaybill_list">expresswaybill_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1597"><abbr title="Seller::comment_list">comment_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1578"><abbr title="Seller::share_list">share_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1523"><abbr title="Seller::category_sort">category_sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1090"><abbr title="Seller::delivery_edit">delivery_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1483"><abbr title="Seller::category_del">category_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1441"><abbr title="Seller::category_save">category_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1429"><abbr title="Seller::category_edit">category_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1411"><abbr title="Seller::category_list">category_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1386"><abbr title="Seller::refer_del">refer_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1368"><abbr title="Seller::order_note">order_note</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1349"><abbr title="Seller::message_del">message_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1329"><abbr title="Seller::message_show">message_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1308"><abbr title="Seller::message_list">message_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1283"><abbr title="Seller::order_discount">order_discount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1257"><abbr title="Seller::pro_rule_del">pro_rule_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1209"><abbr title="Seller::pro_rule_edit_act">pro_rule_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1196"><abbr title="Seller::pro_rule_edit">pro_rule_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#1122"><abbr title="Seller::delivery_update">delivery_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="site.php.html#896"><abbr title="Site::assemble">assemble</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#12"><abbr title="System::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="plugins.php.html#97"><abbr title="plugins::plugin_add">plugin_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#877"><abbr title="Tools::keyword_del">keyword_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#201"><abbr title="Ucenter::address_del">address_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#172"><abbr title="Ucenter::address">address</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#110"><abbr title="Ucenter::order_status">order_status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#95"><abbr title="Ucenter::order_detail">order_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#78"><abbr title="Ucenter::initPayment">initPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#67"><abbr title="Ucenter::order">order</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#42"><abbr title="Ucenter::user_ico_upload">user_ico_upload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#15"><abbr title="Ucenter::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#11"><abbr title="Ucenter::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#983"><abbr title="Tools::search_del">search_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#954"><abbr title="Tools::keyword_order">keyword_order</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#931"><abbr title="Tools::keyword_account">keyword_account</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#910"><abbr title="Tools::keyword_hot">keyword_hot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#857"><abbr title="Tools::keyword_add">keyword_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#228"><abbr title="Ucenter::refunds_update">refunds_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#841"><abbr title="Tools::help_cat_del">help_cat_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#816"><abbr title="Tools::help_cat_edit_act">help_cat_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#800"><abbr title="Tools::help_cat_edit">help_cat_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#784"><abbr title="Tools::help_del">help_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#758"><abbr title="Tools::help_edit_act">help_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#742"><abbr title="Tools::help_edit">help_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#736"><abbr title="Tools::help_list">help_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#680"><abbr title="Tools::ad_edit_act">ad_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#666"><abbr title="Tools::ad_edit">ad_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#640"><abbr title="Tools::ad_del">ad_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#613"><abbr title="Tools::ad_position_edit_act">ad_position_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#594"><abbr title="Tools::ad_position_edit">ad_position_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#568"><abbr title="Tools::ad_position_del">ad_position_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#211"><abbr title="Ucenter::address_default">address_default</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#320"><abbr title="Ucenter::refunds_del">refunds_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#499"><abbr title="Tools::cat_edit">cat_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#724"><abbr title="Ucenter::trade_ticket">trade_ticket</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="update.php.html#10"><abbr title="Update::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#1063"><abbr title="Ucenter::fix_freight">fix_freight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#1041"><abbr title="Ucenter::exchange_freight">exchange_freight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#1019"><abbr title="Ucenter::refunds_freight">refunds_freight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#989"><abbr title="Ucenter::fix_detail">fix_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#978"><abbr title="Ucenter::fix_del">fix_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#948"><abbr title="Ucenter::exchange_detail">exchange_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#937"><abbr title="Ucenter::exchange_del">exchange_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#889"><abbr title="Ucenter::download">download</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#880"><abbr title="Ucenter::comment_img_upload">comment_img_upload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#871"><abbr title="Ucenter::refunds_img_upload">refunds_img_upload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#862"><abbr title="Ucenter::invoice_del">invoice_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#773"><abbr title="Ucenter::payment_balance">payment_balance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#716"><abbr title="Ucenter::integral">integral</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#330"><abbr title="Ucenter::refunds_detail">refunds_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#684"><abbr title="Ucenter::favorite_del">favorite_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#639"><abbr title="Ucenter::edit_summary">edit_summary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#628"><abbr title="Ucenter::account_log">account_log</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#613"><abbr title="Ucenter::withdraw_del">withdraw_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#601"><abbr title="Ucenter::withdraw_detail">withdraw_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#545"><abbr title="Ucenter::withdraw_act">withdraw_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#534"><abbr title="Ucenter::withdraw">withdraw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#482"><abbr title="Ucenter::info_edit_act">info_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#474"><abbr title="Ucenter::info">info</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#425"><abbr title="Ucenter::password_edit">password_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#410"><abbr title="Ucenter::message_read">message_read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#403"><abbr title="Ucenter::message_del">message_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#381"><abbr title="Ucenter::complain_edit">complain_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#361"><abbr title="Ucenter::refunds_edit">refunds_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#522"><abbr title="Tools::cat_del">cat_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#396"><abbr title="Tools::cat_edit_act">cat_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#18"><abbr title="System::test_sendmail">test_sendmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#654"><abbr title="System::right_edit">right_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#982"><abbr title="System::freight_del">freight_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#953"><abbr title="System::freight_update">freight_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#937"><abbr title="System::freight_edit">freight_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#904"><abbr title="System::navigation_recycle_restore">navigation_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#886"><abbr title="System::navigation_recycle_del">navigation_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#854"><abbr title="System::navigation_del">navigation_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#832"><abbr title="System::navigation_update">navigation_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#820"><abbr title="System::navigation_edit">navigation_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#773"><abbr title="System::applyTheme">applyTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#757"><abbr title="System::conf_ui">conf_ui</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#745"><abbr title="System::clearCache">clearCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#707"><abbr title="System::right_update">right_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#668"><abbr title="System::right_edit_act">right_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#610"><abbr title="System::role_edit_act">role_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1038"><abbr title="System::freight_recycle_del">freight_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#571"><abbr title="System::role_edit">role_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#533"><abbr title="System::role_update">role_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#489"><abbr title="System::admin_update">admin_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#415"><abbr title="System::admin_edit_act">admin_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#402"><abbr title="System::admin_edit">admin_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#395"><abbr title="System::conf_base">conf_base</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#334"><abbr title="System::save_conf">save_conf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#295"><abbr title="System::payment_update">payment_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#274"><abbr title="System::payment_edit">payment_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#185"><abbr title="System::delivery_update">delivery_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#120"><abbr title="System::delivery_operate">delivery_operate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#92"><abbr title="System::delivery_edit">delivery_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#71"><abbr title="System::list_action">list_action</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#53"><abbr title="System::list_controller">list_controller</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1010"><abbr title="System::freight_recycle_restore">freight_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1064"><abbr title="System::oauth_edit">oauth_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#379"><abbr title="Tools::notice_edit">notice_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#70"><abbr title="Tools::upload_sql">upload_sql</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#364"><abbr title="Tools::notice_del">notice_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#338"><abbr title="Tools::notice_edit_act">notice_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#266"><abbr title="Tools::article_edit_act">article_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#248"><abbr title="Tools::article_edit">article_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#217"><abbr title="Tools::article_del">article_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#191"><abbr title="Tools::download_pack">download_pack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#174"><abbr title="Tools::localUpload">localUpload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#151"><abbr title="Tools::res_act">res_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#142"><abbr title="Tools::db_res">db_res</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#133"><abbr title="Tools::db_bak">db_bak</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#115"><abbr title="Tools::backup_del">backup_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#107"><abbr title="Tools::download">download</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#77"><abbr title="Tools::db_act_bak">db_act_bak</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#31"><abbr title="Tools::seo_items">seo_items</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1090"><abbr title="System::oauth_edit_act">oauth_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#17"><abbr title="Tools::seo_sitemaps">seo_sitemaps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tools.php.html#12"><abbr title="Tools::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="systemseller.php.html#66"><abbr title="SystemSeller::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="systemseller.php.html#15"><abbr title="SystemSeller::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1386"><abbr title="System::banner_update">banner_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1353"><abbr title="System::guide_update">guide_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1343"><abbr title="System::payment_list">payment_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1315"><abbr title="System::test_sendhsms">test_sendhsms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1288"><abbr title="System::admin_repwd_act">admin_repwd_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1253"><abbr title="System::takeself_operate">takeself_operate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1241"><abbr title="System::takeself_edit">takeself_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1185"><abbr title="System::takeself_update">takeself_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1175"><abbr title="System::area_del">area_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="system.php.html#1136"><abbr title="System::area_update">area_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#15"><abbr title="Seller::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="plugins.php.html#68"><abbr title="plugins::plugin_del">plugin_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="admin.php.html#83"><abbr title="Admin::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#508"><abbr title="Goods::category_list">category_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#868"><abbr title="Goods::goods_share">goods_share</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#838"><abbr title="Goods::update_commend">update_commend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#796"><abbr title="Goods::update_price">update_price</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#762"><abbr title="Goods::update_store">update_store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#751"><abbr title="Goods::ajax_sort">ajax_sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#726"><abbr title="Goods::brand_sort">brand_sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#699"><abbr title="Goods::category_sort">category_sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#670"><abbr title="Goods::spec_photo_del">spec_photo_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#653"><abbr title="Goods::spec_recycle_restore">spec_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#637"><abbr title="Goods::spec_recycle_del">spec_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#620"><abbr title="Goods::spec_del">spec_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#553"><abbr title="Goods::spec_update">spec_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#526"><abbr title="Goods::spec_edit">spec_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#464"><abbr title="Goods::category_del">category_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#909"><abbr title="Goods::goods_setting_save">goods_setting_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#406"><abbr title="Goods::category_save">category_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#392"><abbr title="Goods::category_edit">category_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#339"><abbr title="Goods::goods_report">goods_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#316"><abbr title="Goods::goods_list">goods_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#295"><abbr title="Goods::goods_recycle_restore">goods_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#268"><abbr title="Goods::goods_recycle_del">goods_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#228"><abbr title="Goods::goods_stats">goods_stats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#207"><abbr title="Goods::goods_del">goods_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#173"><abbr title="Goods::goods_update">goods_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#144"><abbr title="Goods::goods_edit">goods_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#116"><abbr title="Goods::member_price">member_price</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#82"><abbr title="Goods::model_del">model_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#63"><abbr title="Goods::model_edit">model_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#887"><abbr title="Goods::goods_setting">goods_setting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#927"><abbr title="Goods::categoryAjax">categoryAjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#20"><abbr title="Goods::goods_img_upload">goods_img_upload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#215"><abbr title="Market::ticket_more_del">ticket_more_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#640"><abbr title="Market::account_list">account_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#618"><abbr title="Market::regiment_del">regiment_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#545"><abbr title="Market::regiment_edit_act">regiment_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#515"><abbr title="Market::regiment_edit">regiment_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#493"><abbr title="Market::pro_speed_del">pro_speed_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#442"><abbr title="Market::pro_speed_edit_act">pro_speed_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#403"><abbr title="Market::pro_speed_edit">pro_speed_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#377"><abbr title="Market::pro_rule_del">pro_rule_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#342"><abbr title="Market::pro_rule_edit_act">pro_rule_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#329"><abbr title="Market::pro_rule_edit">pro_rule_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#321"><abbr title="Market::getTicketList">getTicketList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#255"><abbr title="Market::ticket_excel">ticket_excel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#248"><abbr title="Market::ticket_more_list">ticket_more_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#179"><abbr title="Market::ticket_del">ticket_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#954"><abbr title="Goods::search">search</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#150"><abbr title="Market::ticket_create">ticket_create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#82"><abbr title="Market::ticket_edit_act">ticket_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#69"><abbr title="Market::ticket_edit">ticket_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#18"><abbr title="Market::ticket_status">ticket_status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#12"><abbr title="Market::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1216"><abbr title="Goods::preorder_setting_save">preorder_setting_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1173"><abbr title="Goods::preorder_setting">preorder_setting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1158"><abbr title="Goods::category_rate_del">category_rate_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1123"><abbr title="Goods::category_rate_save">category_rate_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1104"><abbr title="Goods::category_rate_edit">category_rate_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1088"><abbr title="Goods::goods_rate_del">goods_rate_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1039"><abbr title="Goods::goods_rate_save">goods_rate_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#1012"><abbr title="Goods::goods_rate_edit">goods_rate_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#961"><abbr title="Goods::search_result">search_result</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#30"><abbr title="Goods::model_update">model_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#13"><abbr title="Goods::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#675"><abbr title="Market::clear_log">clear_log</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#473"><abbr title="Block::freight">freight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#77"><abbr title="Brand::category_del">category_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#47"><abbr title="Brand::category_save">category_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#21"><abbr title="Brand::category_edit">category_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#13"><abbr title="Brand::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#766"><abbr title="Block::preorder">preorder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#746"><abbr title="Block::takeself">takeself</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#740"><abbr title="Block::iplookupAjax">iplookupAjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#670"><abbr title="Block::invoice_add">invoice_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#650"><abbr title="Block::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#640"><abbr title="Block::deliveryCallback">deliveryCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#608"><abbr title="Block::ticket">ticket</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#542"><abbr title="Block::address_add">address_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#522"><abbr title="Block::address">address</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#430"><abbr title="Block::getTakeselfList">getTakeselfList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#134"><abbr title="Brand::brand_save">brand_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#398"><abbr title="Block::goodsCommend">goodsCommend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#379"><abbr title="Block::getGoodsData">getGoodsData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#370"><abbr title="Block::attribute_init">attribute_init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#306"><abbr title="Block::add_download_ticket">add_download_ticket</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#292"><abbr title="Block::searchProvince">searchProvince</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#284"><abbr title="Block::merchant_callback">merchant_callback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#220"><abbr title="Block::server_callback">server_callback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#152"><abbr title="Block::callback">callback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#79"><abbr title="Block::doPay">doPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#53"><abbr title="Block::order_delivery">order_delivery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#42"><abbr title="Block::area_child">area_child</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#31"><abbr title="Block::products_list">products_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#18"><abbr title="Block::spec_value_list">spec_value_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="block.php.html#10"><abbr title="Block::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#106"><abbr title="Brand::brand_edit">brand_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#193"><abbr title="Brand::brand_del">brand_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="errors.php.html#50"><abbr title="Errors::error503">error503</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#332"><abbr title="Comment::message_list">message_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="errors.php.html#43"><abbr title="Errors::error403">error403</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="errors.php.html#36"><abbr title="Errors::error404">error404</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="errors.php.html#19"><abbr title="Errors::sence">sence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#475"><abbr title="Comment::refer_edit">refer_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#462"><abbr title="Comment::message_show">message_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#449"><abbr title="Comment::seller_message_show">seller_message_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#434"><abbr title="Comment::seller_message_del">seller_message_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#416"><abbr title="Comment::start_seller_message">start_seller_message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#407"><abbr title="Comment::seller_message_send">seller_message_send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#399"><abbr title="Comment::seller_message_list">seller_message_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#380"><abbr title="Comment::start_message">start_message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#371"><abbr title="Comment::message_send">message_send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#351"><abbr title="Comment::message_del">message_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#308"><abbr title="Comment::refer_reply">refer_reply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#222"><abbr title="Brand::brand_list">brand_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#292"><abbr title="Comment::refer_del">refer_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#274"><abbr title="Comment::refer_list">refer_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#257"><abbr title="Comment::discussion_del">discussion_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#227"><abbr title="Comment::discussion_edit">discussion_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#214"><abbr title="Comment::discussion_list">discussion_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#194"><abbr title="Comment::comment_update">comment_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#156"><abbr title="Comment::comment_del">comment_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#125"><abbr title="Comment::comment_edit">comment_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#105"><abbr title="Comment::comment_list">comment_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#85"><abbr title="Comment::suggestion_del">suggestion_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#67"><abbr title="Comment::suggestion_edit_act">suggestion_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#39"><abbr title="Comment::suggestion_edit">suggestion_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#21"><abbr title="Comment::suggestion_list">suggestion_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#13"><abbr title="Comment::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#658"><abbr title="Market::operation_list">operation_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#706"><abbr title="Market::bill_edit">bill_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="plugins.php.html#34"><abbr title="plugins::plugin_update">plugin_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#899"><abbr title="Order::delivery_recycle_del">delivery_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1277"><abbr title="Order::recycle_restore">recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1255"><abbr title="Order::ship_info_del">ship_info_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1202"><abbr title="Order::ship_info_update">ship_info_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1185"><abbr title="Order::ship_info_default">ship_info_default</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1165"><abbr title="Order::ship_info_edit">ship_info_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1122"><abbr title="Order::merge_template">merge_template</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1102"><abbr title="Order::pick_template">pick_template</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1062"><abbr title="Order::shop_template">shop_template</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1027"><abbr title="Order::print_template_update">print_template_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1009"><abbr title="Order::print_template">print_template</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#988"><abbr title="Order::order_recycle_restore">order_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#948"><abbr title="Order::order_recycle_del">order_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#923"><abbr title="Order::delivery_recycle_restore">delivery_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#874"><abbr title="Order::delivery_del">delivery_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1316"><abbr title="Order::order_report">order_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#850"><abbr title="Order::refundment_recycle_restore">refundment_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#834"><abbr title="Order::refundment_recycle_del">refundment_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#817"><abbr title="Order::refundment_del">refundment_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#792"><abbr title="Order::collection_recycle_restore">collection_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#768"><abbr title="Order::collection_recycle_del">collection_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#743"><abbr title="Order::collection_del">collection_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#715"><abbr title="Order::order_del">order_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#690"><abbr title="Order::order_list">order_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#641"><abbr title="Order::order_edit">order_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#465"><abbr title="Order::order_update">order_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#441"><abbr title="Order::order_delivery_doc">order_delivery_doc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#424"><abbr title="Order::order_deliver">order_deliver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#364"><abbr title="Order::order_complete">order_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#346"><abbr title="Order::order_note">order_note</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1297"><abbr title="Order::recycle_del">recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1369"><abbr title="Order::search">search</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#239"><abbr title="Order::order_refundment">order_refundment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1759"><abbr title="Order::fix_doc_show_save">fix_doc_show_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="plugins.php.html#18"><abbr title="plugins::plugin_edit">plugin_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="plugins.php.html#12"><abbr title="plugins::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#170"><abbr title="Pic::qrcode">qrcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#111"><abbr title="Pic::thumb">thumb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#89"><abbr title="Pic::upload_json">upload_json</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#81"><abbr title="Pic::getPhotoList">getPhotoList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#18"><abbr title="Pic::uploadFile">uploadFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="pic.php.html#13"><abbr title="Pic::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1894"><abbr title="Order::delivery_doc_update">delivery_doc_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1871"><abbr title="Order::exchange_show">exchange_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1846"><abbr title="Order::fix_show">fix_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1821"><abbr title="Order::fix_recycle_restore">fix_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1796"><abbr title="Order::exchange_recycle_restore">exchange_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1722"><abbr title="Order::exchange_doc_show_save">exchange_doc_show_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1376"><abbr title="Order::expresswaybill_edit">expresswaybill_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1702"><abbr title="Order::fix_doc_show">fix_doc_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1684"><abbr title="Order::exchange_doc_show">exchange_doc_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1669"><abbr title="Order::fix_recycle_del">fix_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1652"><abbr title="Order::fix_del">fix_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1635"><abbr title="Order::exchange_recycle_del">exchange_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1618"><abbr title="Order::exchange_del">exchange_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1600"><abbr title="Order::fix_doc_del">fix_doc_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1584"><abbr title="Order::exchange_doc_del">exchange_doc_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1559"><abbr title="Order::get_code_info_ajax">get_code_info_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1474"><abbr title="Order::check_code_ajax">check_code_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1459"><abbr title="Order::expresswaybill_print">expresswaybill_print</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1442"><abbr title="Order::expresswaybill_ajax">expresswaybill_ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1419"><abbr title="Order::expresswaybill_template">expresswaybill_template</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#1389"><abbr title="Order::expresswaybill_update">expresswaybill_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#268"><abbr title="Order::order_refundment_doc">order_refundment_doc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#207"><abbr title="Order::order_collection_doc">order_collection_doc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#726"><abbr title="Market::bill_update">bill_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1309"><abbr title="Market::assemble_del">assemble_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#366"><abbr title="Member::group_del">group_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#313"><abbr title="Member::group_save">group_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#280"><abbr title="Member::group_edit">group_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#240"><abbr title="Member::member_recharge">member_recharge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#221"><abbr title="Member::member_reclaim">member_reclaim</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#213"><abbr title="Member::member_balance">member_balance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#179"><abbr title="Member::member_list">member_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#42"><abbr title="Member::member_save">member_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#21"><abbr title="Member::member_edit">member_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#13"><abbr title="Member::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1378"><abbr title="Market::topic_del">topic_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1350"><abbr title="Market::topic_edit_act">topic_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1334"><abbr title="Market::topic_edit">topic_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1244"><abbr title="Market::assemble_update">assemble_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#412"><abbr title="Member::member_del">member_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1215"><abbr title="Market::assemble_edit">assemble_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1201"><abbr title="Market::order_goods_list">order_goods_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1184"><abbr title="Market::bill_list">bill_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1160"><abbr title="Market::cost_point_del">cost_point_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1121"><abbr title="Market::cost_point_edit_act">cost_point_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1088"><abbr title="Market::cost_point_edit">cost_point_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1057"><abbr title="Market::sellerReport">sellerReport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#1020"><abbr title="Market::sale_del">sale_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#899"><abbr title="Market::sale_edit_act">sale_edit_act</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#882"><abbr title="Market::sale_edit">sale_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#822"><abbr title="Market::amount_report">amount_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#800"><abbr title="Market::spanding_report">spanding_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#778"><abbr title="Market::user_report">user_report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="market.php.html#764"><abbr title="Market::bill_del">bill_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#387"><abbr title="Member::recycling">recycling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#441"><abbr title="Member::member_restore">member_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#190"><abbr title="Order::order_collection">order_collection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#191"><abbr title="Message::registry_message_send">registry_message_send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#160"><abbr title="Order::delivery_show">delivery_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#133"><abbr title="Order::refundment_doc_show_save">refundment_doc_show_save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#115"><abbr title="Order::refundment_doc_del">refundment_doc_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#96"><abbr title="Order::refundment_doc_show">refundment_doc_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#72"><abbr title="Order::refundment_show">refundment_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#44"><abbr title="Order::collection_show">collection_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#18"><abbr title="Order::order_show">order_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#11"><abbr title="Order::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#385"><abbr title="Message::marketing_sms_show">marketing_sms_show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#367"><abbr title="Message::marketing_sms_del">marketing_sms_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#276"><abbr title="Message::start_marketing_sms">start_marketing_sms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#267"><abbr title="Message::marketing_sms_send">marketing_sms_send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#248"><abbr title="Message::marketing_sms_list">marketing_sms_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#132"><abbr title="Message::notify_sms_send">notify_sms_send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#461"><abbr title="Member::withdraw_del">withdraw_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#58"><abbr title="Message::notify_email_send">notify_email_send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#42"><abbr title="Message::notify_del">notify_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#19"><abbr title="Message::registry_del">registry_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="message.php.html#13"><abbr title="Message::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#833"><abbr title="Member::ajax_seller_lock">ajax_seller_lock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#815"><abbr title="Member::seller_recycle_restore">seller_recycle_restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#792"><abbr title="Member::seller_recycle_del">seller_recycle_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#772"><abbr title="Member::seller_del">seller_del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#646"><abbr title="Member::seller_add">seller_add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#630"><abbr title="Member::seller_edit">seller_edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#615"><abbr title="Member::seller_list">seller_list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#559"><abbr title="Member::withdraw_status">withdraw_status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#538"><abbr title="Member::withdraw_detail">withdraw_detail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="member.php.html#491"><abbr title="Member::withdraw_update">withdraw_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="update.php.html#104"><abbr title="Update::_c">_c</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="simple.php.html#351"><abbr title="Simple::cart3">cart3</abbr></a></td><td class="text-right">4970</td></tr>
+       <tr><td><a href="order.php.html#465"><abbr title="Order::order_update">order_update</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="site.php.html#305"><abbr title="Site::products">products</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="simple.php.html#1230"><abbr title="Simple::seller_reg">seller_reg</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="market.php.html#899"><abbr title="Market::sale_edit_act">sale_edit_act</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="member.php.html#42"><abbr title="Member::member_save">member_save</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="member.php.html#646"><abbr title="Member::seller_add">seller_add</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="goods.php.html#1216"><abbr title="Goods::preorder_setting_save">preorder_setting_save</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="update.php.html#10"><abbr title="Update::index">index</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="system.php.html#334"><abbr title="System::save_conf">save_conf</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="system.php.html#415"><abbr title="System::admin_edit_act">admin_edit_act</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="simple.php.html#271"><abbr title="Simple::cart2">cart2</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="seller.php.html#548"><abbr title="Seller::regiment_edit_act">regiment_edit_act</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="order.php.html#1122"><abbr title="Order::merge_template">merge_template</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="order.php.html#1062"><abbr title="Order::shop_template">shop_template</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="site.php.html#698"><abbr title="Site::comment_add">comment_add</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="tools.php.html#680"><abbr title="Tools::ad_edit_act">ad_edit_act</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ucenter.php.html#773"><abbr title="Ucenter::payment_balance">payment_balance</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="message.php.html#276"><abbr title="Message::start_marketing_sms">start_marketing_sms</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="admin.php.html#11"><abbr title="Admin::login_act">login_act</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="order.php.html#1474"><abbr title="Order::check_code_ajax">check_code_ajax</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="block.php.html#152"><abbr title="Block::callback">callback</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="seller.php.html#1974"><abbr title="Seller::assemble_update">assemble_update</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="simple.php.html#866"><abbr title="Simple::send_message_mobile">send_message_mobile</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="pic.php.html#111"><abbr title="Pic::thumb">thumb</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="system.php.html#120"><abbr title="System::delivery_operate">delivery_operate</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="tools.php.html#396"><abbr title="Tools::cat_edit_act">cat_edit_act</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="seller.php.html#2303"><abbr title="Seller::ticket_excel">ticket_excel</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="seller.php.html#417"><abbr title="Seller::seller_add">seller_add</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="seller.php.html#2140"><abbr title="Seller::ticket_edit_act">ticket_edit_act</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="market.php.html#255"><abbr title="Market::ticket_excel">ticket_excel</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="brand.php.html#134"><abbr title="Brand::brand_save">brand_save</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="market.php.html#82"><abbr title="Market::ticket_edit_act">ticket_edit_act</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="seller.php.html#890"><abbr title="Seller::goods_copy">goods_copy</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="site.php.html#199"><abbr title="Site::consult_act">consult_act</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="system.php.html#1386"><abbr title="System::banner_update">banner_update</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="simple.php.html#765"><abbr title="Simple::find_password_email">find_password_email</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="seller.php.html#1889"><abbr title="Seller::banner_update">banner_update</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="system.php.html#773"><abbr title="System::applyTheme">applyTheme</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="simple.php.html#952"><abbr title="Simple::do_restore_password">do_restore_password</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ucenter.php.html#228"><abbr title="Ucenter::refunds_update">refunds_update</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="block.php.html#220"><abbr title="Block::server_callback">server_callback</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="simple.php.html#815"><abbr title="Simple::find_password_mobile">find_password_mobile</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="market.php.html#545"><abbr title="Market::regiment_edit_act">regiment_edit_act</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="simple.php.html#1067"><abbr title="Simple::oauth_callback">oauth_callback</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="market.php.html#822"><abbr title="Market::amount_report">amount_report</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="system.php.html#489"><abbr title="System::admin_update">admin_update</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="goods.php.html#961"><abbr title="Goods::search_result">search_result</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="market.php.html#18"><abbr title="Market::ticket_status">ticket_status</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="site.php.html#30"><abbr title="Site::search_list">search_list</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="pic.php.html#18"><abbr title="Pic::uploadFile">uploadFile</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="block.php.html#473"><abbr title="Block::freight">freight</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="seller.php.html#2076"><abbr title="Seller::ticket_status">ticket_status</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="block.php.html#79"><abbr title="Block::doPay">doPay</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="tools.php.html#266"><abbr title="Tools::article_edit_act">article_edit_act</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="simple.php.html#1103"><abbr title="Simple::bindUser">bindUser</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="goods.php.html#927"><abbr title="Goods::categoryAjax">categoryAjax</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="message.php.html#58"><abbr title="Message::notify_email_send">notify_email_send</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="goods.php.html#1173"><abbr title="Goods::preorder_setting">preorder_setting</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="order.php.html#268"><abbr title="Order::order_refundment_doc">order_refundment_doc</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="goods.php.html#553"><abbr title="Goods::spec_update">spec_update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="market.php.html#1244"><abbr title="Market::assemble_update">assemble_update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="market.php.html#442"><abbr title="Market::pro_speed_edit_act">pro_speed_edit_act</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ucenter.php.html#889"><abbr title="Ucenter::download">download</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="seller.php.html#662"><abbr title="Seller::bill_update">bill_update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="seller.php.html#1551"><abbr title="Seller::categoryAjax">categoryAjax</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="seller.php.html#843"><abbr title="Seller::refundment_update">refundment_update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="plugins.php.html#34"><abbr title="plugins::plugin_update">plugin_update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="goods.php.html#406"><abbr title="Goods::category_save">category_save</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="simple.php.html#156"><abbr title="Simple::removeCart">removeCart</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ucenter.php.html#545"><abbr title="Ucenter::withdraw_act">withdraw_act</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="system.php.html#610"><abbr title="System::role_edit_act">role_edit_act</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="system.php.html#1315"><abbr title="System::test_sendhsms">test_sendhsms</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="message.php.html#132"><abbr title="Message::notify_sms_send">notify_sms_send</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="site.php.html#454"><abbr title="Site::discussUpdate">discussUpdate</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="market.php.html#150"><abbr title="Market::ticket_create">ticket_create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="systemseller.php.html#15"><abbr title="SystemSeller::login">login</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="block.php.html#670"><abbr title="Block::invoice_add">invoice_add</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="site.php.html#665"><abbr title="Site::comments">comments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="block.php.html#608"><abbr title="Block::ticket">ticket</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="order.php.html#641"><abbr title="Order::order_edit">order_edit</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="simple.php.html#1192"><abbr title="Simple::bind_not_exists_user">bind_not_exists_user</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ucenter.php.html#482"><abbr title="Ucenter::info_edit_act">info_edit_act</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="market.php.html#726"><abbr title="Market::bill_update">bill_update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="message.php.html#191"><abbr title="Message::registry_message_send">registry_message_send</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="system.php.html#185"><abbr title="System::delivery_update">delivery_update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="goods.php.html#228"><abbr title="Goods::goods_stats">goods_stats</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="seller.php.html#2208"><abbr title="Seller::ticket_create">ticket_create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="pic.php.html#89"><abbr title="Pic::upload_json">upload_json</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="simple.php.html#999"><abbr title="Simple::favorite_add">favorite_add</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="member.php.html#313"><abbr title="Member::group_save">group_save</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="market.php.html#1020"><abbr title="Market::sale_del">sale_del</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ucenter.php.html#110"><abbr title="Ucenter::order_status">order_status</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ucenter.php.html#172"><abbr title="Ucenter::address">address</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="seller.php.html#351"><abbr title="Seller::order_report">order_report</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="system.php.html#533"><abbr title="System::role_update">role_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="member.php.html#240"><abbr title="Member::member_recharge">member_recharge</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#707"><abbr title="System::right_update">right_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="member.php.html#179"><abbr title="Member::member_list">member_list</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="member.php.html#559"><abbr title="Member::withdraw_status">withdraw_status</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1283"><abbr title="Seller::order_discount">order_discount</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="site.php.html#497"><abbr title="Site::getProduct">getProduct</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="plugins.php.html#97"><abbr title="plugins::plugin_add">plugin_add</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1122"><abbr title="Seller::delivery_update">delivery_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1386"><abbr title="Seller::refer_del">refer_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1523"><abbr title="Seller::category_sort">category_sort</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1655"><abbr title="Seller::expresswaybill_update">expresswaybill_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1787"><abbr title="Seller::takeself_update">takeself_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#102"><abbr title="Seller::goods_report">goods_report</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#1856"><abbr title="Seller::takeself_operate">takeself_operate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#22"><abbr title="Seller::goods_edit">goods_edit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="plugins.php.html#68"><abbr title="plugins::plugin_del">plugin_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="block.php.html#306"><abbr title="Block::add_download_ticket">add_download_ticket</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="simple.php.html#95"><abbr title="Simple::joinCart">joinCart</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="block.php.html#430"><abbr title="Block::getTakeselfList">getTakeselfList</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="order.php.html#1389"><abbr title="Order::expresswaybill_update">expresswaybill_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="block.php.html#398"><abbr title="Block::goodsCommend">goodsCommend</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="order.php.html#1316"><abbr title="Order::order_report">order_report</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="block.php.html#542"><abbr title="Block::address_add">address_add</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="simple.php.html#1151"><abbr title="Simple::bind_exists_user">bind_exists_user</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="site.php.html#83"><abbr title="Site::autoComplete">autoComplete</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="simple.php.html#920"><abbr title="Simple::restore_password">restore_password</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="member.php.html#491"><abbr title="Member::withdraw_update">withdraw_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#854"><abbr title="System::navigation_del">navigation_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tools.php.html#522"><abbr title="Tools::cat_del">cat_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#1353"><abbr title="System::guide_update">guide_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tools.php.html#31"><abbr title="Tools::seo_items">seo_items</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="block.php.html#766"><abbr title="Block::preorder">preorder</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tools.php.html#217"><abbr title="Tools::article_del">article_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#838"><abbr title="Goods::update_commend">update_commend</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#796"><abbr title="Goods::update_price">update_price</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#726"><abbr title="Goods::brand_sort">brand_sort</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tools.php.html#568"><abbr title="Tools::ad_position_del">ad_position_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#1185"><abbr title="System::takeself_update">takeself_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tools.php.html#594"><abbr title="Tools::ad_position_edit">ad_position_edit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tools.php.html#640"><abbr title="Tools::ad_del">ad_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#339"><abbr title="Goods::goods_report">goods_report</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#173"><abbr title="Goods::goods_update">goods_update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#144"><abbr title="Goods::goods_edit">goods_edit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#82"><abbr title="Goods::model_del">model_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ucenter.php.html#425"><abbr title="Ucenter::password_edit">password_edit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ucenter.php.html#724"><abbr title="Ucenter::trade_ticket">trade_ticket</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#1253"><abbr title="System::takeself_operate">takeself_operate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="goods.php.html#699"><abbr title="Goods::category_sort">category_sort</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#904"><abbr title="System::navigation_recycle_restore">navigation_recycle_restore</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#1090"><abbr title="System::oauth_edit_act">oauth_edit_act</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#1038"><abbr title="System::freight_recycle_del">freight_recycle_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="market.php.html#1121"><abbr title="Market::cost_point_edit_act">cost_point_edit_act</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#982"><abbr title="System::freight_del">freight_del</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="system.php.html#1010"><abbr title="System::freight_recycle_restore">freight_recycle_restore</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="simple.php.html#729"><abbr title="Simple::arrival_notice">arrival_notice</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1559"><abbr title="Order::get_code_info_ajax">get_code_info_ajax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1759"><abbr title="Order::fix_doc_show_save">fix_doc_show_save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1722"><abbr title="Order::exchange_doc_show_save">exchange_doc_show_save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#2235"><abbr title="Seller::ticket_del">ticket_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="member.php.html#366"><abbr title="Member::group_del">group_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="goods.php.html#268"><abbr title="Goods::goods_recycle_del">goods_recycle_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="market.php.html#1088"><abbr title="Market::cost_point_edit">cost_point_edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="member.php.html#221"><abbr title="Member::member_reclaim">member_reclaim</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="tools.php.html#499"><abbr title="Tools::cat_edit">cat_edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="market.php.html#675"><abbr title="Market::clear_log">clear_log</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1442"><abbr title="Order::expresswaybill_ajax">expresswaybill_ajax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1202"><abbr title="Order::ship_info_update">ship_info_update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="market.php.html#1057"><abbr title="Market::sellerReport">sellerReport</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="member.php.html#280"><abbr title="Member::group_edit">group_edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="goods.php.html#670"><abbr title="Goods::spec_photo_del">spec_photo_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1419"><abbr title="Order::expresswaybill_template">expresswaybill_template</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="plugins.php.html#18"><abbr title="plugins::plugin_edit">plugin_edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="system.php.html#571"><abbr title="System::role_edit">role_edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="system.php.html#668"><abbr title="System::right_edit_act">right_edit_act</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#1349"><abbr title="Seller::message_del">message_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="block.php.html#53"><abbr title="Block::order_delivery">order_delivery</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#1441"><abbr title="Seller::category_save">category_save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#1483"><abbr title="Seller::category_del">category_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="comment.php.html#85"><abbr title="Comment::suggestion_del">suggestion_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ucenter.php.html#639"><abbr title="Ucenter::edit_summary">edit_summary</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#1613"><abbr title="Seller::expresswaybill_list">expresswaybill_list</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="comment.php.html#156"><abbr title="Comment::comment_del">comment_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#277"><abbr title="Seller::order_deliver">order_deliver</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="tools.php.html#877"><abbr title="Tools::keyword_del">keyword_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#251"><abbr title="Seller::order_show">order_show</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="comment.php.html#351"><abbr title="Comment::message_del">message_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#180"><abbr title="Seller::goods_status">goods_status</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#152"><abbr title="Seller::goods_del">goods_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="comment.php.html#380"><abbr title="Comment::start_message">start_message</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="comment.php.html#416"><abbr title="Comment::start_seller_message">start_seller_message</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#50"><abbr title="Seller::goods_update">goods_update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ucenter.php.html#42"><abbr title="Ucenter::user_ico_upload">user_ico_upload</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="goods.php.html#762"><abbr title="Goods::update_store">update_store</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="goods.php.html#464"><abbr title="Goods::category_del">category_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="member.php.html#412"><abbr title="Member::member_del">member_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#588"><abbr title="Site::discuss_ajax">discuss_ajax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="tools.php.html#77"><abbr title="Tools::db_act_bak">db_act_bak</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#1209"><abbr title="Seller::pro_rule_edit_act">pro_rule_edit_act</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#534"><abbr title="Site::comment_ajax">comment_ajax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#919"><abbr title="Site::topic">topic</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#896"><abbr title="Site::assemble">assemble</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#561"><abbr title="Site::history_ajax">history_ajax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#1027"><abbr title="Order::print_template_update">print_template_update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#834"><abbr title="Site::groupon">groupon</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#160"><abbr title="Order::delivery_show">delivery_show</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#615"><abbr title="Site::refer_ajax">refer_ajax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="message.php.html#367"><abbr title="Message::marketing_sms_del">marketing_sms_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="market.php.html#403"><abbr title="Market::pro_speed_edit">pro_speed_edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#791"><abbr title="Site::help">help</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#44"><abbr title="Order::collection_show">collection_show</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="market.php.html#179"><abbr title="Market::ticket_del">ticket_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#18"><abbr title="Order::order_show">order_show</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="system.php.html#1136"><abbr title="System::area_update">area_update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="order.php.html#948"><abbr title="Order::order_recycle_del">order_recycle_del</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="member.php.html#441"><abbr title="Member::member_restore">member_restore</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="goods.php.html#1039"><abbr title="Goods::goods_rate_save">goods_rate_save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="goods.php.html#1123"><abbr title="Goods::category_rate_save">category_rate_save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#176"><abbr title="Site::consult">consult</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="site.php.html#111"><abbr title="Site::email_registry">email_registry</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="tools.php.html#191"><abbr title="Tools::download_pack">download_pack</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="system.php.html#53"><abbr title="System::list_controller">list_controller</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#989"><abbr title="Ucenter::fix_detail">fix_detail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1308"><abbr title="Seller::message_list">message_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1329"><abbr title="Seller::message_show">message_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1735"><abbr title="Seller::fix_show">fix_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1703"><abbr title="Seller::exchange_update">exchange_update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1685"><abbr title="Seller::exchange_show">exchange_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#330"><abbr title="Ucenter::refunds_detail">refunds_detail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#361"><abbr title="Ucenter::refunds_edit">refunds_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#684"><abbr title="Ucenter::favorite_del">favorite_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#948"><abbr title="Ucenter::exchange_detail">exchange_detail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1411"><abbr title="Seller::category_list">category_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#1064"><abbr title="System::oauth_edit">oauth_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#92"><abbr title="System::delivery_edit">delivery_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#886"><abbr title="System::navigation_recycle_del">navigation_recycle_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#71"><abbr title="System::list_action">list_action</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#1288"><abbr title="System::admin_repwd_act">admin_repwd_act</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#18"><abbr title="System::test_sendmail">test_sendmail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1578"><abbr title="Seller::share_list">share_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#931"><abbr title="Tools::keyword_account">keyword_account</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1753"><abbr title="Seller::fix_update">fix_update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="simple.php.html#50"><abbr title="Simple::reg_act">reg_act</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#757"><abbr title="System::conf_ui">conf_ui</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#379"><abbr title="Tools::notice_edit">notice_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#248"><abbr title="Tools::article_edit">article_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#174"><abbr title="Tools::localUpload">localUpload</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="site.php.html#153"><abbr title="Site::pro_list">pro_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="site.php.html#251"><abbr title="Site::notice_detail">notice_detail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="site.php.html#281"><abbr title="Site::article_detail">article_detail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="simple.php.html#140"><abbr title="Simple::getProducts">getProducts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#742"><abbr title="Tools::help_edit">help_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="simple.php.html#69"><abbr title="Simple::login_act">login_act</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#151"><abbr title="Tools::res_act">res_act</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="site.php.html#643"><abbr title="Site::comments_list">comments_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#2267"><abbr title="Seller::ticket_more_del">ticket_more_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#115"><abbr title="Tools::backup_del">backup_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#784"><abbr title="Tools::help_del">help_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#2051"><abbr title="Seller::assemble_del">assemble_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#800"><abbr title="Tools::help_cat_edit">help_cat_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#841"><abbr title="Tools::help_cat_del">help_cat_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#857"><abbr title="Tools::keyword_add">keyword_add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1944"><abbr title="Seller::assemble_edit">assemble_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#954"><abbr title="Tools::keyword_order">keyword_order</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="tools.php.html#983"><abbr title="Tools::search_del">search_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="system.php.html#274"><abbr title="System::payment_edit">payment_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="brand.php.html#21"><abbr title="Brand::category_edit">category_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1257"><abbr title="Seller::pro_rule_del">pro_rule_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="member.php.html#387"><abbr title="Member::recycling">recycling</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#640"><abbr title="Market::account_list">account_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#706"><abbr title="Market::bill_edit">bill_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#882"><abbr title="Market::sale_edit">sale_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#1160"><abbr title="Market::cost_point_del">cost_point_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#1215"><abbr title="Market::assemble_edit">assemble_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#1309"><abbr title="Market::assemble_del">assemble_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#1334"><abbr title="Market::topic_edit">topic_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#1378"><abbr title="Market::topic_del">topic_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="member.php.html#21"><abbr title="Member::member_edit">member_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="member.php.html#461"><abbr title="Member::withdraw_del">withdraw_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#515"><abbr title="Market::regiment_edit">regiment_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="block.php.html#650"><abbr title="Block::invoice">invoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="member.php.html#792"><abbr title="Member::seller_recycle_del">seller_recycle_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="message.php.html#19"><abbr title="Message::registry_del">registry_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="message.php.html#248"><abbr title="Message::marketing_sms_list">marketing_sms_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#72"><abbr title="Order::refundment_show">refundment_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#96"><abbr title="Order::refundment_doc_show">refundment_doc_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#115"><abbr title="Order::refundment_doc_del">refundment_doc_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#133"><abbr title="Order::refundment_doc_show_save">refundment_doc_show_save</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#239"><abbr title="Order::order_refundment">order_refundment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#364"><abbr title="Order::order_complete">order_complete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#618"><abbr title="Market::regiment_del">regiment_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#493"><abbr title="Market::pro_speed_del">pro_speed_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#715"><abbr title="Order::order_del">order_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#332"><abbr title="Comment::message_list">message_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="brand.php.html#77"><abbr title="Brand::category_del">category_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="brand.php.html#106"><abbr title="Brand::brand_edit">brand_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="brand.php.html#193"><abbr title="Brand::brand_del">brand_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#39"><abbr title="Comment::suggestion_edit">suggestion_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#105"><abbr title="Comment::comment_list">comment_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#125"><abbr title="Comment::comment_edit">comment_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#227"><abbr title="Comment::discussion_edit">discussion_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#257"><abbr title="Comment::discussion_del">discussion_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#292"><abbr title="Comment::refer_del">refer_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#308"><abbr title="Comment::refer_reply">refer_reply</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#434"><abbr title="Comment::seller_message_del">seller_message_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#377"><abbr title="Market::pro_rule_del">pro_rule_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="errors.php.html#19"><abbr title="Errors::sence">sence</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#116"><abbr title="Goods::member_price">member_price</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#508"><abbr title="Goods::category_list">category_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#868"><abbr title="Goods::goods_share">goods_share</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#1012"><abbr title="Goods::goods_rate_edit">goods_rate_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#1088"><abbr title="Goods::goods_rate_del">goods_rate_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#1104"><abbr title="Goods::category_rate_edit">category_rate_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#1158"><abbr title="Goods::category_rate_del">category_rate_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#215"><abbr title="Market::ticket_more_del">ticket_more_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="market.php.html#342"><abbr title="Market::pro_rule_edit_act">pro_rule_edit_act</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#441"><abbr title="Order::order_delivery_doc">order_delivery_doc</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#199"><abbr title="Seller::spec_del">spec_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1871"><abbr title="Order::exchange_show">exchange_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="block.php.html#522"><abbr title="Block::address">address</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1600"><abbr title="Order::fix_doc_del">fix_doc_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1584"><abbr title="Order::exchange_doc_del">exchange_doc_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="pic.php.html#170"><abbr title="Pic::qrcode">qrcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#525"><abbr title="Seller::regiment_del">regiment_del</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1459"><abbr title="Order::expresswaybill_print">expresswaybill_print</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1684"><abbr title="Order::exchange_doc_show">exchange_doc_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1702"><abbr title="Order::fix_doc_show">fix_doc_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#496"><abbr title="Seller::regiment_edit">regiment_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#731"><abbr title="Seller::countGoodsFee">countGoodsFee</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#763"><abbr title="Seller::comment_edit">comment_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1165"><abbr title="Order::ship_info_edit">ship_info_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#821"><abbr title="Seller::refundment_show">refundment_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#794"><abbr title="Seller::comment_update">comment_update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#326"><abbr title="Seller::order_list">order_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1102"><abbr title="Order::pick_template">pick_template</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#228"><abbr title="Seller::refer_reply">refer_reply</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="order.php.html#1846"><abbr title="Order::fix_show">fix_show</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#974"><abbr title="Seller::ship_info_edit">ship_info_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#72"><abbr title="Seller::goods_list">goods_list</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1090"><abbr title="Seller::delivery_edit">delivery_edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#300"><abbr title="Seller::order_delivery_doc">order_delivery_doc</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="seller.php.html#1014"><abbr title="Seller::ship_info_update">ship_info_update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#526"><abbr title="Goods::spec_edit">spec_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#666"><abbr title="Tools::ad_edit">ad_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#392"><abbr title="Goods::category_edit">category_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="block.php.html#18"><abbr title="Block::spec_value_list">spec_value_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#613"><abbr title="Tools::ad_position_edit_act">ad_position_edit_act</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#329"><abbr title="Market::pro_rule_edit">pro_rule_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#1844"><abbr title="Seller::takeself_edit">takeself_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#620"><abbr title="Goods::spec_del">spec_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#637"><abbr title="Goods::spec_recycle_del">spec_recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#653"><abbr title="Goods::spec_recycle_restore">spec_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#69"><abbr title="Market::ticket_edit">ticket_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="brand.php.html#47"><abbr title="Brand::category_save">category_save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#364"><abbr title="Tools::notice_del">notice_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#338"><abbr title="Tools::notice_edit_act">notice_edit_act</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#295"><abbr title="Goods::goods_recycle_restore">goods_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#887"><abbr title="Goods::goods_setting">goods_setting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#909"><abbr title="Goods::goods_setting_save">goods_setting_save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#316"><abbr title="Goods::goods_list">goods_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="simple.php.html#1051"><abbr title="Simple::oauth_login">oauth_login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#758"><abbr title="Tools::help_edit_act">help_edit_act</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="comment.php.html#274"><abbr title="Comment::refer_list">refer_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#1063"><abbr title="Ucenter::fix_freight">fix_freight</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#1041"><abbr title="Ucenter::exchange_freight">exchange_freight</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#1019"><abbr title="Ucenter::refunds_freight">refunds_freight</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#1069"><abbr title="Seller::ship_info_del">ship_info_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="brand.php.html#222"><abbr title="Brand::brand_list">brand_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="comment.php.html#21"><abbr title="Comment::suggestion_list">suggestion_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#997"><abbr title="Seller::ship_info_default">ship_info_default</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#613"><abbr title="Ucenter::withdraw_del">withdraw_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#1429"><abbr title="Seller::category_edit">category_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="comment.php.html#194"><abbr title="Comment::comment_update">comment_update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#410"><abbr title="Ucenter::message_read">message_read</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#381"><abbr title="Ucenter::complain_edit">complain_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#211"><abbr title="Ucenter::address_default">address_default</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#207"><abbr title="Goods::goods_del">goods_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#648"><abbr title="Seller::bill_del">bill_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#95"><abbr title="Ucenter::order_detail">order_detail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#78"><abbr title="Ucenter::initPayment">initPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#1597"><abbr title="Seller::comment_list">comment_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="comment.php.html#449"><abbr title="Comment::seller_message_show">seller_message_show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="comment.php.html#462"><abbr title="Comment::message_show">message_show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="comment.php.html#475"><abbr title="Comment::refer_edit">refer_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#910"><abbr title="Tools::keyword_hot">keyword_hot</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#632"><abbr title="Seller::bill_edit">bill_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#63"><abbr title="Goods::model_edit">model_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tools.php.html#816"><abbr title="Tools::help_cat_edit_act">help_cat_edit_act</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#1642"><abbr title="Seller::expresswaybill_edit">expresswaybill_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#30"><abbr title="Goods::model_update">model_update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#2127"><abbr title="Seller::ticket_edit">ticket_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1894"><abbr title="Order::delivery_doc_update">delivery_doc_update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1185"><abbr title="Order::ship_info_default">ship_info_default</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="site.php.html#882"><abbr title="Site::home">home</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="site.php.html#869"><abbr title="Site::brand_zone">brand_zone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="message.php.html#385"><abbr title="Message::marketing_sms_show">marketing_sms_show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="site.php.html#813"><abbr title="Site::help_list">help_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1376"><abbr title="Order::expresswaybill_edit">expresswaybill_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="site.php.html#776"><abbr title="Site::pic_show">pic_show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="block.php.html#292"><abbr title="Block::searchProvince">searchProvince</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1297"><abbr title="Order::recycle_del">recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1277"><abbr title="Order::recycle_restore">recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1255"><abbr title="Order::ship_info_del">ship_info_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#190"><abbr title="Order::order_collection">order_collection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#207"><abbr title="Order::order_collection_doc">order_collection_doc</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#424"><abbr title="Order::order_deliver">order_deliver</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="message.php.html#42"><abbr title="Message::notify_del">notify_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#690"><abbr title="Order::order_list">order_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="site.php.html#271"><abbr title="Site::article">article</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#743"><abbr title="Order::collection_del">collection_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#768"><abbr title="Order::collection_recycle_del">collection_recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#792"><abbr title="Order::collection_recycle_restore">collection_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#817"><abbr title="Order::refundment_del">refundment_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#834"><abbr title="Order::refundment_recycle_del">refundment_recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#850"><abbr title="Order::refundment_recycle_restore">refundment_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="simple.php.html#1324"><abbr title="Simple::exceptCartGoodsAjax">exceptCartGoodsAjax</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="block.php.html#379"><abbr title="Block::getGoodsData">getGoodsData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#874"><abbr title="Order::delivery_del">delivery_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#899"><abbr title="Order::delivery_recycle_del">delivery_recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#923"><abbr title="Order::delivery_recycle_restore">delivery_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="block.php.html#640"><abbr title="Block::deliveryCallback">deliveryCallback</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="simple.php.html#232"><abbr title="Simple::cart">cart</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#1241"><abbr title="System::takeself_edit">takeself_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#820"><abbr title="System::navigation_edit">navigation_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#658"><abbr title="Market::operation_list">operation_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#988"><abbr title="Order::order_recycle_restore">order_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#764"><abbr title="Market::bill_del">bill_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#778"><abbr title="Market::user_report">user_report</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#800"><abbr title="Market::spanding_report">spanding_report</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1821"><abbr title="Order::fix_recycle_restore">fix_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="block.php.html#746"><abbr title="Block::takeself">takeself</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#953"><abbr title="System::freight_update">freight_update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#937"><abbr title="System::freight_edit">freight_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1796"><abbr title="Order::exchange_recycle_restore">exchange_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#1184"><abbr title="Market::bill_list">bill_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#1201"><abbr title="Market::order_goods_list">order_goods_list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#832"><abbr title="System::navigation_update">navigation_update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#745"><abbr title="System::clearCache">clearCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="member.php.html#815"><abbr title="Member::seller_recycle_restore">seller_recycle_restore</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1669"><abbr title="Order::fix_recycle_del">fix_recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="market.php.html#1350"><abbr title="Market::topic_edit_act">topic_edit_act</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#654"><abbr title="System::right_edit">right_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="simple.php.html#29"><abbr title="Simple::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1652"><abbr title="Order::fix_del">fix_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1635"><abbr title="Order::exchange_recycle_del">exchange_recycle_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#1618"><abbr title="Order::exchange_del">exchange_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="member.php.html#538"><abbr title="Member::withdraw_detail">withdraw_detail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#402"><abbr title="System::admin_edit">admin_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#1196"><abbr title="Seller::pro_rule_edit">pro_rule_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="system.php.html#295"><abbr title="System::payment_update">payment_update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="member.php.html#630"><abbr title="Member::seller_edit">seller_edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="member.php.html#772"><abbr title="Member::seller_del">seller_del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="member.php.html#615"><abbr title="Member::seller_list">seller_list</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.18</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> at Wed Jun 24 17:40:24 +08 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([19,1,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([524,0,0,0,0,0,0,0,0,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"admin.php.html#6\">Admin<\/a>"],[0,98,"<a href=\"block.php.html#6\">Block<\/a>"],[0,27,"<a href=\"brand.php.html#7\">Brand<\/a>"],[0,65,"<a href=\"comment.php.html#7\">Comment<\/a>"],[0,6,"<a href=\"errors.php.html#14\">Errors<\/a>"],[0,168,"<a href=\"goods.php.html#7\">Goods<\/a>"],[0,185,"<a href=\"market.php.html#7\">Market<\/a>"],[0,104,"<a href=\"member.php.html#7\">Member<\/a>"],[0,46,"<a href=\"message.php.html#7\">Message<\/a>"],[0,231,"<a href=\"order.php.html#7\">Order<\/a>"],[0,29,"<a href=\"pic.php.html#9\">Pic<\/a>"],[0,22,"<a href=\"plugins.php.html#7\">plugins<\/a>"],[0,304,"<a href=\"seller.php.html#8\">Seller<\/a>"],[1.238390092879257,214,"<a href=\"simple.php.html#20\">Simple<\/a>"],[0,137,"<a href=\"site.php.html#14\">Site<\/a>"],[0,194,"<a href=\"system.php.html#7\">System<\/a>"],[0,7,"<a href=\"systemseller.php.html#8\">SystemSeller<\/a>"],[0,134,"<a href=\"tools.php.html#7\">Tools<\/a>"],[0,119,"<a href=\"ucenter.php.html#7\">Ucenter<\/a>"],[0,14,"<a href=\"update.php.html#5\">Update<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,11,"<a href=\"admin.php.html#11\">Admin::login_act<\/a>"],[0,1,"<a href=\"admin.php.html#83\">Admin::logout<\/a>"],[0,1,"<a href=\"block.php.html#10\">Block::init<\/a>"],[0,2,"<a href=\"block.php.html#18\">Block::spec_value_list<\/a>"],[0,1,"<a href=\"block.php.html#31\">Block::products_list<\/a>"],[0,1,"<a href=\"block.php.html#42\">Block::area_child<\/a>"],[0,4,"<a href=\"block.php.html#53\">Block::order_delivery<\/a>"],[0,8,"<a href=\"block.php.html#79\">Block::doPay<\/a>"],[0,10,"<a href=\"block.php.html#152\">Block::callback<\/a>"],[0,9,"<a href=\"block.php.html#220\">Block::server_callback<\/a>"],[0,1,"<a href=\"block.php.html#284\">Block::merchant_callback<\/a>"],[0,2,"<a href=\"block.php.html#292\">Block::searchProvince<\/a>"],[0,5,"<a href=\"block.php.html#306\">Block::add_download_ticket<\/a>"],[0,1,"<a href=\"block.php.html#370\">Block::attribute_init<\/a>"],[0,2,"<a href=\"block.php.html#379\">Block::getGoodsData<\/a>"],[0,5,"<a href=\"block.php.html#398\">Block::goodsCommend<\/a>"],[0,5,"<a href=\"block.php.html#430\">Block::getTakeselfList<\/a>"],[0,8,"<a href=\"block.php.html#473\">Block::freight<\/a>"],[0,3,"<a href=\"block.php.html#522\">Block::address<\/a>"],[0,5,"<a href=\"block.php.html#542\">Block::address_add<\/a>"],[0,6,"<a href=\"block.php.html#608\">Block::ticket<\/a>"],[0,2,"<a href=\"block.php.html#640\">Block::deliveryCallback<\/a>"],[0,3,"<a href=\"block.php.html#650\">Block::invoice<\/a>"],[0,6,"<a href=\"block.php.html#670\">Block::invoice_add<\/a>"],[0,1,"<a href=\"block.php.html#740\">Block::iplookupAjax<\/a>"],[0,2,"<a href=\"block.php.html#746\">Block::takeself<\/a>"],[0,5,"<a href=\"block.php.html#766\">Block::preorder<\/a>"],[0,1,"<a href=\"brand.php.html#13\">Brand::init<\/a>"],[0,3,"<a href=\"brand.php.html#21\">Brand::category_edit<\/a>"],[0,2,"<a href=\"brand.php.html#47\">Brand::category_save<\/a>"],[0,3,"<a href=\"brand.php.html#77\">Brand::category_del<\/a>"],[0,3,"<a href=\"brand.php.html#106\">Brand::brand_edit<\/a>"],[0,10,"<a href=\"brand.php.html#134\">Brand::brand_save<\/a>"],[0,3,"<a href=\"brand.php.html#193\">Brand::brand_del<\/a>"],[0,2,"<a href=\"brand.php.html#222\">Brand::brand_list<\/a>"],[0,1,"<a href=\"comment.php.html#13\">Comment::init<\/a>"],[0,2,"<a href=\"comment.php.html#21\">Comment::suggestion_list<\/a>"],[0,3,"<a href=\"comment.php.html#39\">Comment::suggestion_edit<\/a>"],[0,1,"<a href=\"comment.php.html#67\">Comment::suggestion_edit_act<\/a>"],[0,4,"<a href=\"comment.php.html#85\">Comment::suggestion_del<\/a>"],[0,3,"<a href=\"comment.php.html#105\">Comment::comment_list<\/a>"],[0,3,"<a href=\"comment.php.html#125\">Comment::comment_edit<\/a>"],[0,4,"<a href=\"comment.php.html#156\">Comment::comment_del<\/a>"],[0,2,"<a href=\"comment.php.html#194\">Comment::comment_update<\/a>"],[0,1,"<a href=\"comment.php.html#214\">Comment::discussion_list<\/a>"],[0,3,"<a href=\"comment.php.html#227\">Comment::discussion_edit<\/a>"],[0,3,"<a href=\"comment.php.html#257\">Comment::discussion_del<\/a>"],[0,2,"<a href=\"comment.php.html#274\">Comment::refer_list<\/a>"],[0,3,"<a href=\"comment.php.html#292\">Comment::refer_del<\/a>"],[0,3,"<a href=\"comment.php.html#308\">Comment::refer_reply<\/a>"],[0,3,"<a href=\"comment.php.html#332\">Comment::message_list<\/a>"],[0,4,"<a href=\"comment.php.html#351\">Comment::message_del<\/a>"],[0,1,"<a href=\"comment.php.html#371\">Comment::message_send<\/a>"],[0,4,"<a href=\"comment.php.html#380\">Comment::start_message<\/a>"],[0,1,"<a href=\"comment.php.html#399\">Comment::seller_message_list<\/a>"],[0,1,"<a href=\"comment.php.html#407\">Comment::seller_message_send<\/a>"],[0,4,"<a href=\"comment.php.html#416\">Comment::start_seller_message<\/a>"],[0,3,"<a href=\"comment.php.html#434\">Comment::seller_message_del<\/a>"],[0,2,"<a href=\"comment.php.html#449\">Comment::seller_message_show<\/a>"],[0,2,"<a href=\"comment.php.html#462\">Comment::message_show<\/a>"],[0,2,"<a href=\"comment.php.html#475\">Comment::refer_edit<\/a>"],[0,3,"<a href=\"errors.php.html#19\">Errors::sence<\/a>"],[0,1,"<a href=\"errors.php.html#36\">Errors::error404<\/a>"],[0,1,"<a href=\"errors.php.html#43\">Errors::error403<\/a>"],[0,1,"<a href=\"errors.php.html#50\">Errors::error503<\/a>"],[0,1,"<a href=\"goods.php.html#13\">Goods::init<\/a>"],[0,1,"<a href=\"goods.php.html#20\">Goods::goods_img_upload<\/a>"],[0,2,"<a href=\"goods.php.html#30\">Goods::model_update<\/a>"],[0,2,"<a href=\"goods.php.html#63\">Goods::model_edit<\/a>"],[0,5,"<a href=\"goods.php.html#82\">Goods::model_del<\/a>"],[0,3,"<a href=\"goods.php.html#116\">Goods::member_price<\/a>"],[0,5,"<a href=\"goods.php.html#144\">Goods::goods_edit<\/a>"],[0,5,"<a href=\"goods.php.html#173\">Goods::goods_update<\/a>"],[0,2,"<a href=\"goods.php.html#207\">Goods::goods_del<\/a>"],[0,6,"<a href=\"goods.php.html#228\">Goods::goods_stats<\/a>"],[0,4,"<a href=\"goods.php.html#268\">Goods::goods_recycle_del<\/a>"],[0,2,"<a href=\"goods.php.html#295\">Goods::goods_recycle_restore<\/a>"],[0,2,"<a href=\"goods.php.html#316\">Goods::goods_list<\/a>"],[0,5,"<a href=\"goods.php.html#339\">Goods::goods_report<\/a>"],[0,2,"<a href=\"goods.php.html#392\">Goods::category_edit<\/a>"],[0,7,"<a href=\"goods.php.html#406\">Goods::category_save<\/a>"],[0,4,"<a href=\"goods.php.html#464\">Goods::category_del<\/a>"],[0,3,"<a href=\"goods.php.html#508\">Goods::category_list<\/a>"],[0,2,"<a href=\"goods.php.html#526\">Goods::spec_edit<\/a>"],[0,7,"<a href=\"goods.php.html#553\">Goods::spec_update<\/a>"],[0,2,"<a href=\"goods.php.html#620\">Goods::spec_del<\/a>"],[0,2,"<a href=\"goods.php.html#637\">Goods::spec_recycle_del<\/a>"],[0,2,"<a href=\"goods.php.html#653\">Goods::spec_recycle_restore<\/a>"],[0,4,"<a href=\"goods.php.html#670\">Goods::spec_photo_del<\/a>"],[0,5,"<a href=\"goods.php.html#699\">Goods::category_sort<\/a>"],[0,5,"<a href=\"goods.php.html#726\">Goods::brand_sort<\/a>"],[0,1,"<a href=\"goods.php.html#751\">Goods::ajax_sort<\/a>"],[0,4,"<a href=\"goods.php.html#762\">Goods::update_store<\/a>"],[0,5,"<a href=\"goods.php.html#796\">Goods::update_price<\/a>"],[0,5,"<a href=\"goods.php.html#838\">Goods::update_commend<\/a>"],[0,3,"<a href=\"goods.php.html#868\">Goods::goods_share<\/a>"],[0,2,"<a href=\"goods.php.html#887\">Goods::goods_setting<\/a>"],[0,2,"<a href=\"goods.php.html#909\">Goods::goods_setting_save<\/a>"],[0,7,"<a href=\"goods.php.html#927\">Goods::categoryAjax<\/a>"],[0,1,"<a href=\"goods.php.html#954\">Goods::search<\/a>"],[0,8,"<a href=\"goods.php.html#961\">Goods::search_result<\/a>"],[0,3,"<a href=\"goods.php.html#1012\">Goods::goods_rate_edit<\/a>"],[0,4,"<a href=\"goods.php.html#1039\">Goods::goods_rate_save<\/a>"],[0,3,"<a href=\"goods.php.html#1088\">Goods::goods_rate_del<\/a>"],[0,3,"<a href=\"goods.php.html#1104\">Goods::category_rate_edit<\/a>"],[0,4,"<a href=\"goods.php.html#1123\">Goods::category_rate_save<\/a>"],[0,3,"<a href=\"goods.php.html#1158\">Goods::category_rate_del<\/a>"],[0,7,"<a href=\"goods.php.html#1173\">Goods::preorder_setting<\/a>"],[0,13,"<a href=\"goods.php.html#1216\">Goods::preorder_setting_save<\/a>"],[0,1,"<a href=\"market.php.html#12\">Market::init<\/a>"],[0,8,"<a href=\"market.php.html#18\">Market::ticket_status<\/a>"],[0,2,"<a href=\"market.php.html#69\">Market::ticket_edit<\/a>"],[0,10,"<a href=\"market.php.html#82\">Market::ticket_edit_act<\/a>"],[0,6,"<a href=\"market.php.html#150\">Market::ticket_create<\/a>"],[0,4,"<a href=\"market.php.html#179\">Market::ticket_del<\/a>"],[0,3,"<a href=\"market.php.html#215\">Market::ticket_more_del<\/a>"],[0,1,"<a href=\"market.php.html#248\">Market::ticket_more_list<\/a>"],[0,10,"<a href=\"market.php.html#255\">Market::ticket_excel<\/a>"],[0,1,"<a href=\"market.php.html#321\">Market::getTicketList<\/a>"],[0,2,"<a href=\"market.php.html#329\">Market::pro_rule_edit<\/a>"],[0,3,"<a href=\"market.php.html#342\">Market::pro_rule_edit_act<\/a>"],[0,3,"<a href=\"market.php.html#377\">Market::pro_rule_del<\/a>"],[0,4,"<a href=\"market.php.html#403\">Market::pro_speed_edit<\/a>"],[0,7,"<a href=\"market.php.html#442\">Market::pro_speed_edit_act<\/a>"],[0,3,"<a href=\"market.php.html#493\">Market::pro_speed_del<\/a>"],[0,3,"<a href=\"market.php.html#515\">Market::regiment_edit<\/a>"],[0,9,"<a href=\"market.php.html#545\">Market::regiment_edit_act<\/a>"],[0,3,"<a href=\"market.php.html#618\">Market::regiment_del<\/a>"],[0,3,"<a href=\"market.php.html#640\">Market::account_list<\/a>"],[0,2,"<a href=\"market.php.html#658\">Market::operation_list<\/a>"],[0,4,"<a href=\"market.php.html#675\">Market::clear_log<\/a>"],[0,3,"<a href=\"market.php.html#706\">Market::bill_edit<\/a>"],[0,6,"<a href=\"market.php.html#726\">Market::bill_update<\/a>"],[0,2,"<a href=\"market.php.html#764\">Market::bill_del<\/a>"],[0,2,"<a href=\"market.php.html#778\">Market::user_report<\/a>"],[0,2,"<a href=\"market.php.html#800\">Market::spanding_report<\/a>"],[0,8,"<a href=\"market.php.html#822\">Market::amount_report<\/a>"],[0,3,"<a href=\"market.php.html#882\">Market::sale_edit<\/a>"],[0,20,"<a href=\"market.php.html#899\">Market::sale_edit_act<\/a>"],[0,6,"<a href=\"market.php.html#1020\">Market::sale_del<\/a>"],[0,4,"<a href=\"market.php.html#1057\">Market::sellerReport<\/a>"],[0,4,"<a href=\"market.php.html#1088\">Market::cost_point_edit<\/a>"],[0,5,"<a href=\"market.php.html#1121\">Market::cost_point_edit_act<\/a>"],[0,3,"<a href=\"market.php.html#1160\">Market::cost_point_del<\/a>"],[0,2,"<a href=\"market.php.html#1184\">Market::bill_list<\/a>"],[0,2,"<a href=\"market.php.html#1201\">Market::order_goods_list<\/a>"],[0,3,"<a href=\"market.php.html#1215\">Market::assemble_edit<\/a>"],[0,7,"<a href=\"market.php.html#1244\">Market::assemble_update<\/a>"],[0,3,"<a href=\"market.php.html#1309\">Market::assemble_del<\/a>"],[0,3,"<a href=\"market.php.html#1334\">Market::topic_edit<\/a>"],[0,2,"<a href=\"market.php.html#1350\">Market::topic_edit_act<\/a>"],[0,3,"<a href=\"market.php.html#1378\">Market::topic_del<\/a>"],[0,1,"<a href=\"member.php.html#13\">Member::init<\/a>"],[0,3,"<a href=\"member.php.html#21\">Member::member_edit<\/a>"],[0,17,"<a href=\"member.php.html#42\">Member::member_save<\/a>"],[0,5,"<a href=\"member.php.html#179\">Member::member_list<\/a>"],[0,1,"<a href=\"member.php.html#213\">Member::member_balance<\/a>"],[0,4,"<a href=\"member.php.html#221\">Member::member_reclaim<\/a>"],[0,5,"<a href=\"member.php.html#240\">Member::member_recharge<\/a>"],[0,4,"<a href=\"member.php.html#280\">Member::group_edit<\/a>"],[0,6,"<a href=\"member.php.html#313\">Member::group_save<\/a>"],[0,4,"<a href=\"member.php.html#366\">Member::group_del<\/a>"],[0,3,"<a href=\"member.php.html#387\">Member::recycling<\/a>"],[0,4,"<a href=\"member.php.html#412\">Member::member_del<\/a>"],[0,4,"<a href=\"member.php.html#441\">Member::member_restore<\/a>"],[0,3,"<a href=\"member.php.html#461\">Member::withdraw_del<\/a>"],[0,5,"<a href=\"member.php.html#491\">Member::withdraw_update<\/a>"],[0,2,"<a href=\"member.php.html#538\">Member::withdraw_detail<\/a>"],[0,5,"<a href=\"member.php.html#559\">Member::withdraw_status<\/a>"],[0,2,"<a href=\"member.php.html#615\">Member::seller_list<\/a>"],[0,2,"<a href=\"member.php.html#630\">Member::seller_edit<\/a>"],[0,16,"<a href=\"member.php.html#646\">Member::seller_add<\/a>"],[0,2,"<a href=\"member.php.html#772\">Member::seller_del<\/a>"],[0,3,"<a href=\"member.php.html#792\">Member::seller_recycle_del<\/a>"],[0,2,"<a href=\"member.php.html#815\">Member::seller_recycle_restore<\/a>"],[0,1,"<a href=\"member.php.html#833\">Member::ajax_seller_lock<\/a>"],[0,1,"<a href=\"message.php.html#13\">Message::init<\/a>"],[0,3,"<a href=\"message.php.html#19\">Message::registry_del<\/a>"],[0,2,"<a href=\"message.php.html#42\">Message::notify_del<\/a>"],[0,7,"<a href=\"message.php.html#58\">Message::notify_email_send<\/a>"],[0,6,"<a href=\"message.php.html#132\">Message::notify_sms_send<\/a>"],[0,6,"<a href=\"message.php.html#191\">Message::registry_message_send<\/a>"],[0,3,"<a href=\"message.php.html#248\">Message::marketing_sms_list<\/a>"],[0,1,"<a href=\"message.php.html#267\">Message::marketing_sms_send<\/a>"],[0,11,"<a href=\"message.php.html#276\">Message::start_marketing_sms<\/a>"],[0,4,"<a href=\"message.php.html#367\">Message::marketing_sms_del<\/a>"],[0,2,"<a href=\"message.php.html#385\">Message::marketing_sms_show<\/a>"],[0,1,"<a href=\"order.php.html#11\">Order::init<\/a>"],[0,4,"<a href=\"order.php.html#18\">Order::order_show<\/a>"],[0,4,"<a href=\"order.php.html#44\">Order::collection_show<\/a>"],[0,3,"<a href=\"order.php.html#72\">Order::refundment_show<\/a>"],[0,3,"<a href=\"order.php.html#96\">Order::refundment_doc_show<\/a>"],[0,3,"<a href=\"order.php.html#115\">Order::refundment_doc_del<\/a>"],[0,3,"<a href=\"order.php.html#133\">Order::refundment_doc_show_save<\/a>"],[0,4,"<a href=\"order.php.html#160\">Order::delivery_show<\/a>"],[0,2,"<a href=\"order.php.html#190\">Order::order_collection<\/a>"],[0,2,"<a href=\"order.php.html#207\">Order::order_collection_doc<\/a>"],[0,3,"<a href=\"order.php.html#239\">Order::order_refundment<\/a>"],[0,7,"<a href=\"order.php.html#268\">Order::order_refundment_doc<\/a>"],[0,1,"<a href=\"order.php.html#346\">Order::order_note<\/a>"],[0,3,"<a href=\"order.php.html#364\">Order::order_complete<\/a>"],[0,2,"<a href=\"order.php.html#424\">Order::order_deliver<\/a>"],[0,3,"<a href=\"order.php.html#441\">Order::order_delivery_doc<\/a>"],[0,23,"<a href=\"order.php.html#465\">Order::order_update<\/a>"],[0,6,"<a href=\"order.php.html#641\">Order::order_edit<\/a>"],[0,2,"<a href=\"order.php.html#690\">Order::order_list<\/a>"],[0,3,"<a href=\"order.php.html#715\">Order::order_del<\/a>"],[0,2,"<a href=\"order.php.html#743\">Order::collection_del<\/a>"],[0,2,"<a href=\"order.php.html#768\">Order::collection_recycle_del<\/a>"],[0,2,"<a href=\"order.php.html#792\">Order::collection_recycle_restore<\/a>"],[0,2,"<a href=\"order.php.html#817\">Order::refundment_del<\/a>"],[0,2,"<a href=\"order.php.html#834\">Order::refundment_recycle_del<\/a>"],[0,2,"<a href=\"order.php.html#850\">Order::refundment_recycle_restore<\/a>"],[0,2,"<a href=\"order.php.html#874\">Order::delivery_del<\/a>"],[0,2,"<a href=\"order.php.html#899\">Order::delivery_recycle_del<\/a>"],[0,2,"<a href=\"order.php.html#923\">Order::delivery_recycle_restore<\/a>"],[0,4,"<a href=\"order.php.html#948\">Order::order_recycle_del<\/a>"],[0,2,"<a href=\"order.php.html#988\">Order::order_recycle_restore<\/a>"],[0,1,"<a href=\"order.php.html#1009\">Order::print_template<\/a>"],[0,4,"<a href=\"order.php.html#1027\">Order::print_template_update<\/a>"],[0,12,"<a href=\"order.php.html#1062\">Order::shop_template<\/a>"],[0,3,"<a href=\"order.php.html#1102\">Order::pick_template<\/a>"],[0,12,"<a href=\"order.php.html#1122\">Order::merge_template<\/a>"],[0,3,"<a href=\"order.php.html#1165\">Order::ship_info_edit<\/a>"],[0,2,"<a href=\"order.php.html#1185\">Order::ship_info_default<\/a>"],[0,4,"<a href=\"order.php.html#1202\">Order::ship_info_update<\/a>"],[0,2,"<a href=\"order.php.html#1255\">Order::ship_info_del<\/a>"],[0,2,"<a href=\"order.php.html#1277\">Order::recycle_restore<\/a>"],[0,2,"<a href=\"order.php.html#1297\">Order::recycle_del<\/a>"],[0,5,"<a href=\"order.php.html#1316\">Order::order_report<\/a>"],[0,1,"<a href=\"order.php.html#1369\">Order::search<\/a>"],[0,2,"<a href=\"order.php.html#1376\">Order::expresswaybill_edit<\/a>"],[0,5,"<a href=\"order.php.html#1389\">Order::expresswaybill_update<\/a>"],[0,4,"<a href=\"order.php.html#1419\">Order::expresswaybill_template<\/a>"],[0,4,"<a href=\"order.php.html#1442\">Order::expresswaybill_ajax<\/a>"],[0,3,"<a href=\"order.php.html#1459\">Order::expresswaybill_print<\/a>"],[0,10,"<a href=\"order.php.html#1474\">Order::check_code_ajax<\/a>"],[0,4,"<a href=\"order.php.html#1559\">Order::get_code_info_ajax<\/a>"],[0,3,"<a href=\"order.php.html#1584\">Order::exchange_doc_del<\/a>"],[0,3,"<a href=\"order.php.html#1600\">Order::fix_doc_del<\/a>"],[0,2,"<a href=\"order.php.html#1618\">Order::exchange_del<\/a>"],[0,2,"<a href=\"order.php.html#1635\">Order::exchange_recycle_del<\/a>"],[0,2,"<a href=\"order.php.html#1652\">Order::fix_del<\/a>"],[0,2,"<a href=\"order.php.html#1669\">Order::fix_recycle_del<\/a>"],[0,3,"<a href=\"order.php.html#1684\">Order::exchange_doc_show<\/a>"],[0,3,"<a href=\"order.php.html#1702\">Order::fix_doc_show<\/a>"],[0,4,"<a href=\"order.php.html#1722\">Order::exchange_doc_show_save<\/a>"],[0,4,"<a href=\"order.php.html#1759\">Order::fix_doc_show_save<\/a>"],[0,2,"<a href=\"order.php.html#1796\">Order::exchange_recycle_restore<\/a>"],[0,2,"<a href=\"order.php.html#1821\">Order::fix_recycle_restore<\/a>"],[0,3,"<a href=\"order.php.html#1846\">Order::fix_show<\/a>"],[0,3,"<a href=\"order.php.html#1871\">Order::exchange_show<\/a>"],[0,2,"<a href=\"order.php.html#1894\">Order::delivery_doc_update<\/a>"],[0,1,"<a href=\"pic.php.html#13\">Pic::init<\/a>"],[0,8,"<a href=\"pic.php.html#18\">Pic::uploadFile<\/a>"],[0,1,"<a href=\"pic.php.html#81\">Pic::getPhotoList<\/a>"],[0,6,"<a href=\"pic.php.html#89\">Pic::upload_json<\/a>"],[0,10,"<a href=\"pic.php.html#111\">Pic::thumb<\/a>"],[0,3,"<a href=\"pic.php.html#170\">Pic::qrcode<\/a>"],[0,1,"<a href=\"plugins.php.html#12\">plugins::init<\/a>"],[0,4,"<a href=\"plugins.php.html#18\">plugins::plugin_edit<\/a>"],[0,7,"<a href=\"plugins.php.html#34\">plugins::plugin_update<\/a>"],[0,5,"<a href=\"plugins.php.html#68\">plugins::plugin_del<\/a>"],[0,5,"<a href=\"plugins.php.html#97\">plugins::plugin_add<\/a>"],[0,1,"<a href=\"seller.php.html#15\">Seller::init<\/a>"],[0,5,"<a href=\"seller.php.html#22\">Seller::goods_edit<\/a>"],[0,4,"<a href=\"seller.php.html#50\">Seller::goods_update<\/a>"],[0,3,"<a href=\"seller.php.html#72\">Seller::goods_list<\/a>"],[0,5,"<a href=\"seller.php.html#102\">Seller::goods_report<\/a>"],[0,4,"<a href=\"seller.php.html#152\">Seller::goods_del<\/a>"],[0,4,"<a href=\"seller.php.html#180\">Seller::goods_status<\/a>"],[0,3,"<a href=\"seller.php.html#199\">Seller::spec_del<\/a>"],[0,1,"<a href=\"seller.php.html#217\">Seller::ajax_sort<\/a>"],[0,3,"<a href=\"seller.php.html#228\">Seller::refer_reply<\/a>"],[0,4,"<a href=\"seller.php.html#251\">Seller::order_show<\/a>"],[0,4,"<a href=\"seller.php.html#277\">Seller::order_deliver<\/a>"],[0,3,"<a href=\"seller.php.html#300\">Seller::order_delivery_doc<\/a>"],[0,3,"<a href=\"seller.php.html#326\">Seller::order_list<\/a>"],[0,6,"<a href=\"seller.php.html#351\">Seller::order_report<\/a>"],[0,1,"<a href=\"seller.php.html#406\">Seller::seller_edit<\/a>"],[0,10,"<a href=\"seller.php.html#417\">Seller::seller_add<\/a>"],[0,3,"<a href=\"seller.php.html#496\">Seller::regiment_edit<\/a>"],[0,3,"<a href=\"seller.php.html#525\">Seller::regiment_del<\/a>"],[0,12,"<a href=\"seller.php.html#548\">Seller::regiment_edit_act<\/a>"],[0,2,"<a href=\"seller.php.html#632\">Seller::bill_edit<\/a>"],[0,2,"<a href=\"seller.php.html#648\">Seller::bill_del<\/a>"],[0,7,"<a href=\"seller.php.html#662\">Seller::bill_update<\/a>"],[0,3,"<a href=\"seller.php.html#731\">Seller::countGoodsFee<\/a>"],[0,3,"<a href=\"seller.php.html#763\">Seller::comment_edit<\/a>"],[0,3,"<a href=\"seller.php.html#794\">Seller::comment_update<\/a>"],[0,3,"<a href=\"seller.php.html#821\">Seller::refundment_show<\/a>"],[0,7,"<a href=\"seller.php.html#843\">Seller::refundment_update<\/a>"],[0,10,"<a href=\"seller.php.html#890\">Seller::goods_copy<\/a>"],[0,3,"<a href=\"seller.php.html#974\">Seller::ship_info_edit<\/a>"],[0,2,"<a href=\"seller.php.html#997\">Seller::ship_info_default<\/a>"],[0,3,"<a href=\"seller.php.html#1014\">Seller::ship_info_update<\/a>"],[0,2,"<a href=\"seller.php.html#1069\">Seller::ship_info_del<\/a>"],[0,3,"<a href=\"seller.php.html#1090\">Seller::delivery_edit<\/a>"],[0,5,"<a href=\"seller.php.html#1122\">Seller::delivery_update<\/a>"],[0,2,"<a href=\"seller.php.html#1196\">Seller::pro_rule_edit<\/a>"],[0,4,"<a href=\"seller.php.html#1209\">Seller::pro_rule_edit_act<\/a>"],[0,3,"<a href=\"seller.php.html#1257\">Seller::pro_rule_del<\/a>"],[0,5,"<a href=\"seller.php.html#1283\">Seller::order_discount<\/a>"],[0,3,"<a href=\"seller.php.html#1308\">Seller::message_list<\/a>"],[0,3,"<a href=\"seller.php.html#1329\">Seller::message_show<\/a>"],[0,4,"<a href=\"seller.php.html#1349\">Seller::message_del<\/a>"],[0,1,"<a href=\"seller.php.html#1368\">Seller::order_note<\/a>"],[0,5,"<a href=\"seller.php.html#1386\">Seller::refer_del<\/a>"],[0,3,"<a href=\"seller.php.html#1411\">Seller::category_list<\/a>"],[0,2,"<a href=\"seller.php.html#1429\">Seller::category_edit<\/a>"],[0,4,"<a href=\"seller.php.html#1441\">Seller::category_save<\/a>"],[0,4,"<a href=\"seller.php.html#1483\">Seller::category_del<\/a>"],[0,5,"<a href=\"seller.php.html#1523\">Seller::category_sort<\/a>"],[0,7,"<a href=\"seller.php.html#1551\">Seller::categoryAjax<\/a>"],[0,3,"<a href=\"seller.php.html#1578\">Seller::share_list<\/a>"],[0,2,"<a href=\"seller.php.html#1597\">Seller::comment_list<\/a>"],[0,4,"<a href=\"seller.php.html#1613\">Seller::expresswaybill_list<\/a>"],[0,2,"<a href=\"seller.php.html#1642\">Seller::expresswaybill_edit<\/a>"],[0,5,"<a href=\"seller.php.html#1655\">Seller::expresswaybill_update<\/a>"],[0,3,"<a href=\"seller.php.html#1685\">Seller::exchange_show<\/a>"],[0,3,"<a href=\"seller.php.html#1703\">Seller::exchange_update<\/a>"],[0,3,"<a href=\"seller.php.html#1735\">Seller::fix_show<\/a>"],[0,3,"<a href=\"seller.php.html#1753\">Seller::fix_update<\/a>"],[0,5,"<a href=\"seller.php.html#1787\">Seller::takeself_update<\/a>"],[0,2,"<a href=\"seller.php.html#1844\">Seller::takeself_edit<\/a>"],[0,5,"<a href=\"seller.php.html#1856\">Seller::takeself_operate<\/a>"],[0,9,"<a href=\"seller.php.html#1889\">Seller::banner_update<\/a>"],[0,3,"<a href=\"seller.php.html#1944\">Seller::assemble_edit<\/a>"],[0,10,"<a href=\"seller.php.html#1974\">Seller::assemble_update<\/a>"],[0,3,"<a href=\"seller.php.html#2051\">Seller::assemble_del<\/a>"],[0,8,"<a href=\"seller.php.html#2076\">Seller::ticket_status<\/a>"],[0,2,"<a href=\"seller.php.html#2127\">Seller::ticket_edit<\/a>"],[0,10,"<a href=\"seller.php.html#2140\">Seller::ticket_edit_act<\/a>"],[0,6,"<a href=\"seller.php.html#2208\">Seller::ticket_create<\/a>"],[0,4,"<a href=\"seller.php.html#2235\">Seller::ticket_del<\/a>"],[0,3,"<a href=\"seller.php.html#2267\">Seller::ticket_more_del<\/a>"],[0,1,"<a href=\"seller.php.html#2296\">Seller::ticket_more_list<\/a>"],[0,10,"<a href=\"seller.php.html#2303\">Seller::ticket_excel<\/a>"],[100,1,"<a href=\"simple.php.html#24\">Simple::init<\/a>"],[0,2,"<a href=\"simple.php.html#29\">Simple::login<\/a>"],[0,1,"<a href=\"simple.php.html#43\">Simple::logout<\/a>"],[0,3,"<a href=\"simple.php.html#50\">Simple::reg_act<\/a>"],[0,3,"<a href=\"simple.php.html#69\">Simple::login_act<\/a>"],[0,5,"<a href=\"simple.php.html#95\">Simple::joinCart<\/a>"],[0,3,"<a href=\"simple.php.html#140\">Simple::getProducts<\/a>"],[0,7,"<a href=\"simple.php.html#156\">Simple::removeCart<\/a>"],[0,1,"<a href=\"simple.php.html#213\">Simple::clearCart<\/a>"],[100,1,"<a href=\"simple.php.html#221\">Simple::showCart<\/a>"],[0,2,"<a href=\"simple.php.html#232\">Simple::cart<\/a>"],[0,1,"<a href=\"simple.php.html#263\">Simple::promotionRuleAjax<\/a>"],[0,12,"<a href=\"simple.php.html#271\">Simple::cart2<\/a>"],[0,70,"<a href=\"simple.php.html#351\">Simple::cart3<\/a>"],[0,4,"<a href=\"simple.php.html#729\">Simple::arrival_notice<\/a>"],[0,9,"<a href=\"simple.php.html#765\">Simple::find_password_email<\/a>"],[0,9,"<a href=\"simple.php.html#815\">Simple::find_password_mobile<\/a>"],[0,10,"<a href=\"simple.php.html#866\">Simple::send_message_mobile<\/a>"],[0,5,"<a href=\"simple.php.html#920\">Simple::restore_password<\/a>"],[0,9,"<a href=\"simple.php.html#952\">Simple::do_restore_password<\/a>"],[0,6,"<a href=\"simple.php.html#999\">Simple::favorite_add<\/a>"],[0,2,"<a href=\"simple.php.html#1051\">Simple::oauth_login<\/a>"],[0,8,"<a href=\"simple.php.html#1067\">Simple::oauth_callback<\/a>"],[0,7,"<a href=\"simple.php.html#1103\">Simple::bindUser<\/a>"],[0,5,"<a href=\"simple.php.html#1151\">Simple::bind_exists_user<\/a>"],[0,6,"<a href=\"simple.php.html#1192\">Simple::bind_not_exists_user<\/a>"],[0,20,"<a href=\"simple.php.html#1230\">Simple::seller_reg<\/a>"],[0,2,"<a href=\"simple.php.html#1324\">Simple::exceptCartGoodsAjax<\/a>"],[0,1,"<a href=\"site.php.html#18\">Site::init<\/a>"],[0,1,"<a href=\"site.php.html#23\">Site::index<\/a>"],[0,8,"<a href=\"site.php.html#30\">Site::search_list<\/a>"],[0,5,"<a href=\"site.php.html#83\">Site::autoComplete<\/a>"],[0,4,"<a href=\"site.php.html#111\">Site::email_registry<\/a>"],[0,3,"<a href=\"site.php.html#153\">Site::pro_list<\/a>"],[0,4,"<a href=\"site.php.html#176\">Site::consult<\/a>"],[0,9,"<a href=\"site.php.html#199\">Site::consult_act<\/a>"],[0,3,"<a href=\"site.php.html#251\">Site::notice_detail<\/a>"],[0,2,"<a href=\"site.php.html#271\">Site::article<\/a>"],[0,3,"<a href=\"site.php.html#281\">Site::article_detail<\/a>"],[0,22,"<a href=\"site.php.html#305\">Site::products<\/a>"],[0,6,"<a href=\"site.php.html#454\">Site::discussUpdate<\/a>"],[0,5,"<a href=\"site.php.html#497\">Site::getProduct<\/a>"],[0,4,"<a href=\"site.php.html#534\">Site::comment_ajax<\/a>"],[0,4,"<a href=\"site.php.html#561\">Site::history_ajax<\/a>"],[0,4,"<a href=\"site.php.html#588\">Site::discuss_ajax<\/a>"],[0,4,"<a href=\"site.php.html#615\">Site::refer_ajax<\/a>"],[0,3,"<a href=\"site.php.html#643\">Site::comments_list<\/a>"],[0,6,"<a href=\"site.php.html#665\">Site::comments<\/a>"],[0,11,"<a href=\"site.php.html#698\">Site::comment_add<\/a>"],[0,2,"<a href=\"site.php.html#776\">Site::pic_show<\/a>"],[0,4,"<a href=\"site.php.html#791\">Site::help<\/a>"],[0,2,"<a href=\"site.php.html#813\">Site::help_list<\/a>"],[0,4,"<a href=\"site.php.html#834\">Site::groupon<\/a>"],[0,1,"<a href=\"site.php.html#860\">Site::brand<\/a>"],[0,2,"<a href=\"site.php.html#869\">Site::brand_zone<\/a>"],[0,2,"<a href=\"site.php.html#882\">Site::home<\/a>"],[0,4,"<a href=\"site.php.html#896\">Site::assemble<\/a>"],[0,4,"<a href=\"site.php.html#919\">Site::topic<\/a>"],[0,1,"<a href=\"system.php.html#12\">System::init<\/a>"],[0,3,"<a href=\"system.php.html#18\">System::test_sendmail<\/a>"],[0,3,"<a href=\"system.php.html#53\">System::list_controller<\/a>"],[0,3,"<a href=\"system.php.html#71\">System::list_action<\/a>"],[0,3,"<a href=\"system.php.html#92\">System::delivery_edit<\/a>"],[0,10,"<a href=\"system.php.html#120\">System::delivery_operate<\/a>"],[0,6,"<a href=\"system.php.html#185\">System::delivery_update<\/a>"],[0,3,"<a href=\"system.php.html#274\">System::payment_edit<\/a>"],[0,2,"<a href=\"system.php.html#295\">System::payment_update<\/a>"],[0,12,"<a href=\"system.php.html#334\">System::save_conf<\/a>"],[0,1,"<a href=\"system.php.html#395\">System::conf_base<\/a>"],[0,2,"<a href=\"system.php.html#402\">System::admin_edit<\/a>"],[0,12,"<a href=\"system.php.html#415\">System::admin_edit_act<\/a>"],[0,8,"<a href=\"system.php.html#489\">System::admin_update<\/a>"],[0,5,"<a href=\"system.php.html#533\">System::role_update<\/a>"],[0,4,"<a href=\"system.php.html#571\">System::role_edit<\/a>"],[0,6,"<a href=\"system.php.html#610\">System::role_edit_act<\/a>"],[0,2,"<a href=\"system.php.html#654\">System::right_edit<\/a>"],[0,4,"<a href=\"system.php.html#668\">System::right_edit_act<\/a>"],[0,5,"<a href=\"system.php.html#707\">System::right_update<\/a>"],[0,2,"<a href=\"system.php.html#745\">System::clearCache<\/a>"],[0,3,"<a href=\"system.php.html#757\">System::conf_ui<\/a>"],[0,9,"<a href=\"system.php.html#773\">System::applyTheme<\/a>"],[0,2,"<a href=\"system.php.html#820\">System::navigation_edit<\/a>"],[0,2,"<a href=\"system.php.html#832\">System::navigation_update<\/a>"],[0,5,"<a href=\"system.php.html#854\">System::navigation_del<\/a>"],[0,3,"<a href=\"system.php.html#886\">System::navigation_recycle_del<\/a>"],[0,5,"<a href=\"system.php.html#904\">System::navigation_recycle_restore<\/a>"],[0,2,"<a href=\"system.php.html#937\">System::freight_edit<\/a>"],[0,2,"<a href=\"system.php.html#953\">System::freight_update<\/a>"],[0,5,"<a href=\"system.php.html#982\">System::freight_del<\/a>"],[0,5,"<a href=\"system.php.html#1010\">System::freight_recycle_restore<\/a>"],[0,5,"<a href=\"system.php.html#1038\">System::freight_recycle_del<\/a>"],[0,3,"<a href=\"system.php.html#1064\">System::oauth_edit<\/a>"],[0,5,"<a href=\"system.php.html#1090\">System::oauth_edit_act<\/a>"],[0,4,"<a href=\"system.php.html#1136\">System::area_update<\/a>"],[0,1,"<a href=\"system.php.html#1175\">System::area_del<\/a>"],[0,5,"<a href=\"system.php.html#1185\">System::takeself_update<\/a>"],[0,2,"<a href=\"system.php.html#1241\">System::takeself_edit<\/a>"],[0,5,"<a href=\"system.php.html#1253\">System::takeself_operate<\/a>"],[0,3,"<a href=\"system.php.html#1288\">System::admin_repwd_act<\/a>"],[0,6,"<a href=\"system.php.html#1315\">System::test_sendhsms<\/a>"],[0,1,"<a href=\"system.php.html#1343\">System::payment_list<\/a>"],[0,5,"<a href=\"system.php.html#1353\">System::guide_update<\/a>"],[0,9,"<a href=\"system.php.html#1386\">System::banner_update<\/a>"],[0,6,"<a href=\"systemseller.php.html#15\">SystemSeller::login<\/a>"],[0,1,"<a href=\"systemseller.php.html#66\">SystemSeller::logout<\/a>"],[0,1,"<a href=\"tools.php.html#12\">Tools::init<\/a>"],[0,1,"<a href=\"tools.php.html#17\">Tools::seo_sitemaps<\/a>"],[0,5,"<a href=\"tools.php.html#31\">Tools::seo_items<\/a>"],[0,1,"<a href=\"tools.php.html#70\">Tools::upload_sql<\/a>"],[0,4,"<a href=\"tools.php.html#77\">Tools::db_act_bak<\/a>"],[0,1,"<a href=\"tools.php.html#107\">Tools::download<\/a>"],[0,3,"<a href=\"tools.php.html#115\">Tools::backup_del<\/a>"],[0,1,"<a href=\"tools.php.html#133\">Tools::db_bak<\/a>"],[0,1,"<a href=\"tools.php.html#142\">Tools::db_res<\/a>"],[0,3,"<a href=\"tools.php.html#151\">Tools::res_act<\/a>"],[0,3,"<a href=\"tools.php.html#174\">Tools::localUpload<\/a>"],[0,4,"<a href=\"tools.php.html#191\">Tools::download_pack<\/a>"],[0,5,"<a href=\"tools.php.html#217\">Tools::article_del<\/a>"],[0,3,"<a href=\"tools.php.html#248\">Tools::article_edit<\/a>"],[0,7,"<a href=\"tools.php.html#266\">Tools::article_edit_act<\/a>"],[0,2,"<a href=\"tools.php.html#338\">Tools::notice_edit_act<\/a>"],[0,2,"<a href=\"tools.php.html#364\">Tools::notice_del<\/a>"],[0,3,"<a href=\"tools.php.html#379\">Tools::notice_edit<\/a>"],[0,10,"<a href=\"tools.php.html#396\">Tools::cat_edit_act<\/a>"],[0,4,"<a href=\"tools.php.html#499\">Tools::cat_edit<\/a>"],[0,5,"<a href=\"tools.php.html#522\">Tools::cat_del<\/a>"],[0,5,"<a href=\"tools.php.html#568\">Tools::ad_position_del<\/a>"],[0,5,"<a href=\"tools.php.html#594\">Tools::ad_position_edit<\/a>"],[0,2,"<a href=\"tools.php.html#613\">Tools::ad_position_edit_act<\/a>"],[0,5,"<a href=\"tools.php.html#640\">Tools::ad_del<\/a>"],[0,2,"<a href=\"tools.php.html#666\">Tools::ad_edit<\/a>"],[0,11,"<a href=\"tools.php.html#680\">Tools::ad_edit_act<\/a>"],[0,1,"<a href=\"tools.php.html#736\">Tools::help_list<\/a>"],[0,3,"<a href=\"tools.php.html#742\">Tools::help_edit<\/a>"],[0,2,"<a href=\"tools.php.html#758\">Tools::help_edit_act<\/a>"],[0,3,"<a href=\"tools.php.html#784\">Tools::help_del<\/a>"],[0,3,"<a href=\"tools.php.html#800\">Tools::help_cat_edit<\/a>"],[0,2,"<a href=\"tools.php.html#816\">Tools::help_cat_edit_act<\/a>"],[0,3,"<a href=\"tools.php.html#841\">Tools::help_cat_del<\/a>"],[0,3,"<a href=\"tools.php.html#857\">Tools::keyword_add<\/a>"],[0,4,"<a href=\"tools.php.html#877\">Tools::keyword_del<\/a>"],[0,2,"<a href=\"tools.php.html#910\">Tools::keyword_hot<\/a>"],[0,3,"<a href=\"tools.php.html#931\">Tools::keyword_account<\/a>"],[0,3,"<a href=\"tools.php.html#954\">Tools::keyword_order<\/a>"],[0,3,"<a href=\"tools.php.html#983\">Tools::search_del<\/a>"],[0,1,"<a href=\"ucenter.php.html#11\">Ucenter::init<\/a>"],[0,1,"<a href=\"ucenter.php.html#15\">Ucenter::index<\/a>"],[0,4,"<a href=\"ucenter.php.html#42\">Ucenter::user_ico_upload<\/a>"],[0,1,"<a href=\"ucenter.php.html#67\">Ucenter::order<\/a>"],[0,2,"<a href=\"ucenter.php.html#78\">Ucenter::initPayment<\/a>"],[0,2,"<a href=\"ucenter.php.html#95\">Ucenter::order_detail<\/a>"],[0,6,"<a href=\"ucenter.php.html#110\">Ucenter::order_status<\/a>"],[0,6,"<a href=\"ucenter.php.html#172\">Ucenter::address<\/a>"],[0,1,"<a href=\"ucenter.php.html#201\">Ucenter::address_del<\/a>"],[0,2,"<a href=\"ucenter.php.html#211\">Ucenter::address_default<\/a>"],[0,9,"<a href=\"ucenter.php.html#228\">Ucenter::refunds_update<\/a>"],[0,1,"<a href=\"ucenter.php.html#320\">Ucenter::refunds_del<\/a>"],[0,3,"<a href=\"ucenter.php.html#330\">Ucenter::refunds_detail<\/a>"],[0,3,"<a href=\"ucenter.php.html#361\">Ucenter::refunds_edit<\/a>"],[0,2,"<a href=\"ucenter.php.html#381\">Ucenter::complain_edit<\/a>"],[0,1,"<a href=\"ucenter.php.html#403\">Ucenter::message_del<\/a>"],[0,2,"<a href=\"ucenter.php.html#410\">Ucenter::message_read<\/a>"],[0,5,"<a href=\"ucenter.php.html#425\">Ucenter::password_edit<\/a>"],[0,1,"<a href=\"ucenter.php.html#474\">Ucenter::info<\/a>"],[0,6,"<a href=\"ucenter.php.html#482\">Ucenter::info_edit_act<\/a>"],[0,1,"<a href=\"ucenter.php.html#534\">Ucenter::withdraw<\/a>"],[0,7,"<a href=\"ucenter.php.html#545\">Ucenter::withdraw_act<\/a>"],[0,1,"<a href=\"ucenter.php.html#601\">Ucenter::withdraw_detail<\/a>"],[0,2,"<a href=\"ucenter.php.html#613\">Ucenter::withdraw_del<\/a>"],[0,1,"<a href=\"ucenter.php.html#628\">Ucenter::account_log<\/a>"],[0,4,"<a href=\"ucenter.php.html#639\">Ucenter::edit_summary<\/a>"],[0,3,"<a href=\"ucenter.php.html#684\">Ucenter::favorite_del<\/a>"],[0,1,"<a href=\"ucenter.php.html#716\">Ucenter::integral<\/a>"],[0,5,"<a href=\"ucenter.php.html#724\">Ucenter::trade_ticket<\/a>"],[0,11,"<a href=\"ucenter.php.html#773\">Ucenter::payment_balance<\/a>"],[0,1,"<a href=\"ucenter.php.html#862\">Ucenter::invoice_del<\/a>"],[0,1,"<a href=\"ucenter.php.html#871\">Ucenter::refunds_img_upload<\/a>"],[0,1,"<a href=\"ucenter.php.html#880\">Ucenter::comment_img_upload<\/a>"],[0,7,"<a href=\"ucenter.php.html#889\">Ucenter::download<\/a>"],[0,1,"<a href=\"ucenter.php.html#937\">Ucenter::exchange_del<\/a>"],[0,3,"<a href=\"ucenter.php.html#948\">Ucenter::exchange_detail<\/a>"],[0,1,"<a href=\"ucenter.php.html#978\">Ucenter::fix_del<\/a>"],[0,3,"<a href=\"ucenter.php.html#989\">Ucenter::fix_detail<\/a>"],[0,2,"<a href=\"ucenter.php.html#1019\">Ucenter::refunds_freight<\/a>"],[0,2,"<a href=\"ucenter.php.html#1041\">Ucenter::exchange_freight<\/a>"],[0,2,"<a href=\"ucenter.php.html#1063\">Ucenter::fix_freight<\/a>"],[0,13,"<a href=\"update.php.html#10\">Update::index<\/a>"],[0,1,"<a href=\"update.php.html#104\">Update::_c<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

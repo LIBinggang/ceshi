@@ -1,0 +1,3 @@
+首页：http://localhost/iwebshop570303/
+后台登录：http://localhost/iwebshop570303/index.php?controller=admin&action=index
+前台登录：http://localhost/iwebshop570303/index.php?controller=systemseller&action=index

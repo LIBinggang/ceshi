@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\LBG\path\wampserver\www\iwebshop570303\classes\api</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">D:\LBG\path\wampserver\www\iwebshop570303</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">api</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="article.php.html#10">APIArticle</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#10">APIBrand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#10">APIComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#9">APIGoods</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="help.php.html#10">APIHelp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#10">APIOrder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#10">APIOther</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#10">APISeller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#10">APIUcenter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#267">ServiceUcenter</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ucenter.php.html#10">APIUcenter</a></td><td class="text-right">2970</td></tr>
+       <tr><td><a href="other.php.html#10">APIOther</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="order.php.html#10">APIOrder</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="seller.php.html#10">APISeller</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="goods.php.html#9">APIGoods</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="brand.php.html#10">APIBrand</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="article.php.html#10">APIArticle</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#10">APIComment</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="help.php.html#10">APIHelp</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="article.php.html#13"><abbr title="APIArticle::getArticleCategoryInfo">getArticleCategoryInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#126"><abbr title="APIUcenter::getUcenterPointLog">getUcenterPointLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#13"><abbr title="APIUcenter::getUcenterAccoutLog">getUcenterAccoutLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#24"><abbr title="APIUcenter::getUcenterSuggestion">getUcenterSuggestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#35"><abbr title="APIUcenter::getUcenterConsult">getUcenterConsult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#48"><abbr title="APIUcenter::getUcenterEvaluation">getUcenterEvaluation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#74"><abbr title="APIUcenter::getMemberInfo">getMemberInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#93"><abbr title="APIUcenter::getMemberTongJi">getMemberTongJi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#112"><abbr title="APIUcenter::getPropTongJi">getPropTongJi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#137"><abbr title="APIUcenter::getUcenterMessageList">getUcenterMessageList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#42"><abbr title="APISeller::getSellerSellAmount">getSellerSellAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#153"><abbr title="APIUcenter::getOrderList">getOrderList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#164"><abbr title="APIUcenter::getPropList">getPropList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#179"><abbr title="APIUcenter::getRefundmentDocList">getRefundmentDocList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#190"><abbr title="APIUcenter::getWithdrawList">getWithdrawList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#202"><abbr title="APIUcenter::getFavorite">getFavorite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#222"><abbr title="APIUcenter::getInvoiceListByUserId">getInvoiceListByUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#239"><abbr title="APIUcenter::getFixDocList">getFixDocList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#251"><abbr title="APIUcenter::getExchangeDocList">getExchangeDocList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#67"><abbr title="APISeller::getSellerOrderNumCheckout">getSellerOrderNumCheckout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#22"><abbr title="APISeller::catTreeSeller">catTreeSeller</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="article.php.html#20"><abbr title="APIArticle::getArticleListByCatid">getArticleListByCatid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#47"><abbr title="APIOrder::getCodeInfo">getCodeInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#13"><abbr title="APIBrand::getBrandInfo">getBrandInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="brand.php.html#22"><abbr title="APIBrand::getBrandListByGoodsCategoryId">getBrandListByGoodsCategoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="comment.php.html#18"><abbr title="APIComment::getListByGoods">getListByGoods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#12"><abbr title="APIGoods::getSaleList">getSaleList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#27"><abbr title="APIGoods::getSaleRow">getSaleRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="goods.php.html#42"><abbr title="APIGoods::catTree">catTree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="help.php.html#13"><abbr title="APIHelp::getHelpListByCatId">getHelpListByCatId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#17"><abbr title="APIOrder::getOrderListWithArea">getOrderListWithArea</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="order.php.html#81"><abbr title="APIOrder::getTakeselfInfo">getTakeselfInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="seller.php.html#13"><abbr title="APISeller::getSellerInfo">getSellerInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#13"><abbr title="APIOther::getProrule">getProrule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#23"><abbr title="APIOther::getPaymentList">getPaymentList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#75"><abbr title="APIOther::getPaymentListByOnline">getPaymentListByOnline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#119"><abbr title="APIOther::getBannerList">getBannerList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#140"><abbr title="APIOther::getBannerConf">getBannerConf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#147"><abbr title="APIOther::getGuideList">getGuideList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#154"><abbr title="APIOther::getAdRow">getAdRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="other.php.html#175"><abbr title="APIOther::getOauthList">getOauthList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ucenter.php.html#272"><abbr title="ServiceUcenter::userLogin">userLogin</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="other.php.html#23"><abbr title="APIOther::getPaymentList">getPaymentList</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="order.php.html#47"><abbr title="APIOrder::getCodeInfo">getCodeInfo</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="other.php.html#75"><abbr title="APIOther::getPaymentListByOnline">getPaymentListByOnline</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ucenter.php.html#74"><abbr title="APIUcenter::getMemberInfo">getMemberInfo</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ucenter.php.html#48"><abbr title="APIUcenter::getUcenterEvaluation">getUcenterEvaluation</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="seller.php.html#42"><abbr title="APISeller::getSellerSellAmount">getSellerSellAmount</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="order.php.html#17"><abbr title="APIOrder::getOrderListWithArea">getOrderListWithArea</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="brand.php.html#22"><abbr title="APIBrand::getBrandListByGoodsCategoryId">getBrandListByGoodsCategoryId</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ucenter.php.html#222"><abbr title="APIUcenter::getInvoiceListByUserId">getInvoiceListByUserId</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="other.php.html#175"><abbr title="APIOther::getOauthList">getOauthList</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="seller.php.html#22"><abbr title="APISeller::catTreeSeller">catTreeSeller</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ucenter.php.html#179"><abbr title="APIUcenter::getRefundmentDocList">getRefundmentDocList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#164"><abbr title="APIUcenter::getPropList">getPropList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#126"><abbr title="APIUcenter::getUcenterPointLog">getUcenterPointLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#35"><abbr title="APIUcenter::getUcenterConsult">getUcenterConsult</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#24"><abbr title="APIUcenter::getUcenterSuggestion">getUcenterSuggestion</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#251"><abbr title="APIUcenter::getExchangeDocList">getExchangeDocList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="other.php.html#154"><abbr title="APIOther::getAdRow">getAdRow</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#13"><abbr title="APIUcenter::getUcenterAccoutLog">getUcenterAccoutLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#153"><abbr title="APIUcenter::getOrderList">getOrderList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="other.php.html#119"><abbr title="APIOther::getBannerList">getBannerList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#190"><abbr title="APIUcenter::getWithdrawList">getWithdrawList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#202"><abbr title="APIUcenter::getFavorite">getFavorite</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="goods.php.html#42"><abbr title="APIGoods::catTree">catTree</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#239"><abbr title="APIUcenter::getFixDocList">getFixDocList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="comment.php.html#18"><abbr title="APIComment::getListByGoods">getListByGoods</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ucenter.php.html#137"><abbr title="APIUcenter::getUcenterMessageList">getUcenterMessageList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="article.php.html#20"><abbr title="APIArticle::getArticleListByCatid">getArticleListByCatid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#112"><abbr title="APIUcenter::getPropTongJi">getPropTongJi</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ucenter.php.html#93"><abbr title="APIUcenter::getMemberTongJi">getMemberTongJi</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="order.php.html#81"><abbr title="APIOrder::getTakeselfInfo">getTakeselfInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="help.php.html#13"><abbr title="APIHelp::getHelpListByCatId">getHelpListByCatId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#27"><abbr title="APIGoods::getSaleRow">getSaleRow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="goods.php.html#12"><abbr title="APIGoods::getSaleList">getSaleList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="seller.php.html#67"><abbr title="APISeller::getSellerOrderNumCheckout">getSellerOrderNumCheckout</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.18</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> at Wed Jun 24 17:40:24 +08 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,0,0,0,0,0,0,0,0,0,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([42,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"article.php.html#10\">APIArticle<\/a>"],[0,5,"<a href=\"brand.php.html#10\">APIBrand<\/a>"],[0,3,"<a href=\"comment.php.html#10\">APIComment<\/a>"],[0,7,"<a href=\"goods.php.html#9\">APIGoods<\/a>"],[0,2,"<a href=\"help.php.html#10\">APIHelp<\/a>"],[100,0,"<a href=\"market.php.html#10\">APIMarket<\/a>"],[100,0,"<a href=\"notice.php.html#10\">APINotice<\/a>"],[0,12,"<a href=\"order.php.html#10\">APIOrder<\/a>"],[0,26,"<a href=\"other.php.html#10\">APIOther<\/a>"],[0,12,"<a href=\"seller.php.html#10\">APISeller<\/a>"],[0,54,"<a href=\"ucenter.php.html#10\">APIUcenter<\/a>"],[0,1,"<a href=\"ucenter.php.html#267\">ServiceUcenter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"article.php.html#13\">APIArticle::getArticleCategoryInfo<\/a>"],[0,2,"<a href=\"article.php.html#20\">APIArticle::getArticleListByCatid<\/a>"],[0,1,"<a href=\"brand.php.html#13\">APIBrand::getBrandInfo<\/a>"],[0,4,"<a href=\"brand.php.html#22\">APIBrand::getBrandListByGoodsCategoryId<\/a>"],[0,3,"<a href=\"comment.php.html#18\">APIComment::getListByGoods<\/a>"],[0,2,"<a href=\"goods.php.html#12\">APIGoods::getSaleList<\/a>"],[0,2,"<a href=\"goods.php.html#27\">APIGoods::getSaleRow<\/a>"],[0,3,"<a href=\"goods.php.html#42\">APIGoods::catTree<\/a>"],[0,2,"<a href=\"help.php.html#13\">APIHelp::getHelpListByCatId<\/a>"],[0,4,"<a href=\"order.php.html#17\">APIOrder::getOrderListWithArea<\/a>"],[0,6,"<a href=\"order.php.html#47\">APIOrder::getCodeInfo<\/a>"],[0,2,"<a href=\"order.php.html#81\">APIOrder::getTakeselfInfo<\/a>"],[0,1,"<a href=\"other.php.html#13\">APIOther::getProrule<\/a>"],[0,7,"<a href=\"other.php.html#23\">APIOther::getPaymentList<\/a>"],[0,6,"<a href=\"other.php.html#75\">APIOther::getPaymentListByOnline<\/a>"],[0,3,"<a href=\"other.php.html#119\">APIOther::getBannerList<\/a>"],[0,1,"<a href=\"other.php.html#140\">APIOther::getBannerConf<\/a>"],[0,1,"<a href=\"other.php.html#147\">APIOther::getGuideList<\/a>"],[0,3,"<a href=\"other.php.html#154\">APIOther::getAdRow<\/a>"],[0,4,"<a href=\"other.php.html#175\">APIOther::getOauthList<\/a>"],[0,1,"<a href=\"seller.php.html#13\">APISeller::getSellerInfo<\/a>"],[0,4,"<a href=\"seller.php.html#22\">APISeller::catTreeSeller<\/a>"],[0,5,"<a href=\"seller.php.html#42\">APISeller::getSellerSellAmount<\/a>"],[0,2,"<a href=\"seller.php.html#67\">APISeller::getSellerOrderNumCheckout<\/a>"],[0,3,"<a href=\"ucenter.php.html#13\">APIUcenter::getUcenterAccoutLog<\/a>"],[0,3,"<a href=\"ucenter.php.html#24\">APIUcenter::getUcenterSuggestion<\/a>"],[0,3,"<a href=\"ucenter.php.html#35\">APIUcenter::getUcenterConsult<\/a>"],[0,5,"<a href=\"ucenter.php.html#48\">APIUcenter::getUcenterEvaluation<\/a>"],[0,5,"<a href=\"ucenter.php.html#74\">APIUcenter::getMemberInfo<\/a>"],[0,2,"<a href=\"ucenter.php.html#93\">APIUcenter::getMemberTongJi<\/a>"],[0,2,"<a href=\"ucenter.php.html#112\">APIUcenter::getPropTongJi<\/a>"],[0,3,"<a href=\"ucenter.php.html#126\">APIUcenter::getUcenterPointLog<\/a>"],[0,3,"<a href=\"ucenter.php.html#137\">APIUcenter::getUcenterMessageList<\/a>"],[0,3,"<a href=\"ucenter.php.html#153\">APIUcenter::getOrderList<\/a>"],[0,3,"<a href=\"ucenter.php.html#164\">APIUcenter::getPropList<\/a>"],[0,3,"<a href=\"ucenter.php.html#179\">APIUcenter::getRefundmentDocList<\/a>"],[0,3,"<a href=\"ucenter.php.html#190\">APIUcenter::getWithdrawList<\/a>"],[0,3,"<a href=\"ucenter.php.html#202\">APIUcenter::getFavorite<\/a>"],[0,4,"<a href=\"ucenter.php.html#222\">APIUcenter::getInvoiceListByUserId<\/a>"],[0,3,"<a href=\"ucenter.php.html#239\">APIUcenter::getFixDocList<\/a>"],[0,3,"<a href=\"ucenter.php.html#251\">APIUcenter::getExchangeDocList<\/a>"],[0,1,"<a href=\"ucenter.php.html#272\">ServiceUcenter::userLogin<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

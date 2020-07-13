@@ -1,0 +1,98 @@
+{js:my97date}
+
+<article class="col-lg-12">
+	<div class="card forms">
+		<div class="card-header d-flex align-items-center justify-content-between">
+			<h3>货款结算单编辑</h3>
+		</div>
+		<div class="card-body">
+			<form action="{url:/seller/bill_update}" method="post" name="bill_edit" class="form-horizontal">
+				<input type='hidden' name='id' />
+
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">结算货款起止时间</label>
+					<div class="col-sm-10">
+					    <div class="row">
+    					    <div class="col">
+    						    <input type='text' class="form-control col-auto" name='start_time' pattern='date' onFocus="WdatePicker({dateFmt:'yyyy-MM-dd'})" alt='请填写开始日期' title="请填写开始日期" placeholder="请填写开始日期" />
+                            </div>
+
+    						<div class="col">
+    						    <input type='text' class="form-control col-auto" name='end_time' pattern='date' onFocus="WdatePicker({dateFmt:'yyyy-MM-dd'})" alt='请填写结束日期' title="请填写结束日期" placeholder="请填写结束日期" />
+    						</div>
+
+    						<div class="col">
+    						    <input type="button" class="btn btn-primary" value="点击计算结算明细" id="checkButton" onclick="checkoutFee();" />
+					        </div>
+					    </div>
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<div class="col-sm-10 offset-sm-2">
+						<textarea name="log" class="form-control" disabled="disabled" style="height:150px"></textarea>
+						<small class="help-block-none">根据选择日期会自动生成结算详情报告，订单必须在用户收到货完成后第[{echo:$this->_siteConfig->low_bill ? $this->_siteConfig->low_bill : 0}]天后才会计入统计</small>
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">申请结算附言</label>
+					<div class="col-sm-10">
+						<textarea name="apply_content" class="form-control" style="height:120px"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">管理员回复</label>
+					<div class="col-sm-10">
+						<textarea class="form-control" name="pay_content" disabled="disabled" style="height:120px"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<div class="col-sm-4 offset-sm-2">
+						<input type="submit" class="btn btn-primary" value="确 定" />
+						<input type="reset" class="btn btn-secondary" value="重 置" />
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</article>
+
+<script type="text/javascript">
+//表单回填
+var formObj = new Form('bill_edit');
+formObj.init({echo:JSON::encode($this->billRow)});
+
+//存在结算单数据就要锁定已有数据
+{if:$this->billRow}
+$("[name='start_time']").prop("disabled",true);
+$("[name='end_time']").prop("disabled",true);
+$("#checkButton").hide();
+{/if}
+
+//计算结算款明细
+function checkoutFee()
+{
+	var startTime = $("[name='start_time']").val();
+	var endTime   = $("[name='end_time']").val();
+	if(!startTime || !endTime)
+	{
+		alert("请填写完整的时间段");
+		return;
+	}
+
+	$.getJSON("{url:/seller/countGoodsFee}",{"start_time":startTime,"end_time":endTime}, function(json)
+	{
+		if(json.result == 'success')
+		{
+			$("[name='log']").val(json.data);
+		}
+		else
+		{
+			alert(json.data);
+		}
+	})
+}
+</script>
